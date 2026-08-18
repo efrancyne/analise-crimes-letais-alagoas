@@ -72,26 +72,6 @@ O resultado final da pesquisa deve incluir:
 - painel ou relatório visual acessível;
 - síntese dos principais achados para a população e para gestores públicos.
 
-## Estrutura sugerida do repositório
-
-```text
-analise_CVLI/
-├── README.md
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── scripts/
-├── reports/
-└── visualizations/
-```
-
-## Observações
-
-- Este projeto tem caráter analítico e de divulgação de informações públicas.
-- Os dados devem ser tratados com atenção à qualidade, consistência e atualização da base.
-- O foco principal é a transparência e a compreensão do contexto de violência letal em Alagoas.
-
 ## Objetivo de comunicação
 
 A pesquisa busca oferecer uma leitura mais simples e visual dos dados, permitindo que a população compreenda melhor o comportamento dos crimes violentos letais intencionais no estado e entenda se as tendências estão se alterando de forma desigual entre as cidades e grupos sociais.
