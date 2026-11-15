@@ -21,7 +21,9 @@ PERIODOS_MAPA = {"Últimos 12 meses": 12, "Últimos 3 anos": 36, "Todo o períod
 IND_TAXA, IND_CASOS = "Taxa por 100 mil habitantes", "Número de vítimas"
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 
-st.set_page_config(page_title="CVLI em Alagoas", page_icon="📊", layout="wide", initial_sidebar_state="collapsed")
+_FAVICON = Path(__file__).parent / "assets" / "favicon.png"
+st.set_page_config(page_title="CVLI em Alagoas", page_icon=str(_FAVICON) if _FAVICON.exists() else None,
+                   layout="wide", initial_sidebar_state="collapsed")
 
 CSS = """
 <style>
@@ -52,7 +54,11 @@ h2, h3 { letter-spacing: -0.2px; }
               linear-gradient(135deg, #0f0709 0%, #240c11 55%, #170a0d 100%);
   box-shadow: 0 12px 44px rgba(120, 10, 25, 0.28);
 }
-@media (min-width: 901px) { .st-key-hero { margin-left: -3.4rem; width: calc(100% + 6.8rem); max-width: none; } }
+@media (min-width: 901px) {
+  .st-key-hero { margin-left: -3.4rem; width: calc(100% + 6.8rem); max-width: none; }
+  .st-key-mapa_m, .st-key-hero_det, .so-m { display: none; }
+  .st-key-frase_off { display: none; }
+}
 .st-key-hero h1 { color: #fff !important; font-size: 2.55rem; line-height: 1.08; padding: 0; margin: 0 0 0.2rem; }
 .st-key-hero_txt { position: absolute; top: 40px; left: 44px; width: min(27%, 390px); z-index: 4; pointer-events: none; gap: 1.1rem !important; }
 .st-key-hero_txt button { pointer-events: auto; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.55); color: #fff; }
@@ -90,11 +96,21 @@ h2, h3 { letter-spacing: -0.2px; }
 @media (max-width: 900px) {
   .st-key-hero { display: flex; flex-direction: column; }
   .st-key-hero_txt, .st-key-hero_kpis, .st-key-hero_menu, .st-key-hero_rank { position: static; width: auto; padding: 18px 18px 0; pointer-events: auto; }
+  .st-key-hero { margin-left: -1rem; width: calc(100% + 2rem); max-width: none; border-radius: 0; }
   .st-key-hero_menu { width: 150px; padding-bottom: 0; }
+  .st-key-hero_det { position: static; width: auto; padding: 4px 18px 6px; pointer-events: auto; }
+  .st-key-hero_det [data-baseweb="select"] > div { background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.5); min-height: 48px; }
+  .st-key-hero_det [data-baseweb="select"] * { color: #fff !important; font-size: 1rem; }
+  .st-key-hero_det [data-baseweb="select"] svg { fill: #fff; }
+  .st-key-hero_det label p { color: rgba(255, 255, 255, 0.8) !important; }
+  .st-key-hero_det button { background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.55); color: #fff; min-height: 46px; }
+  .st-key-hero_det button p { color: #fff; }
   .st-key-hero_kpis { padding-bottom: 18px; }
   .st-key-hero_rank { padding-bottom: 14px; }
   .st-key-hero > div:has(.st-key-hero_menu) { order: -3; align-self: flex-end; }
   .st-key-hero > div:has(.st-key-hero_txt) { order: -2; }
+  .st-key-mapa_d, .st-key-sel_d, .so-d { display: none; }
+  .st-key-hero > div:has(.st-key-hero_det) { order: 1; }
   .st-key-hero > div:has(.st-key-hero_rank) { order: 4; }
   .st-key-hero > div:has(.st-key-hero_kpis) { order: 5; }
   .kpi-grid.seis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -357,74 +373,121 @@ if ref is not None:
         return t
 
     m["texto"] = [texto(r) for r in m.itertuples()]
+    m["texto_movel"] = [f"<b>{r.municipio}</b><br>{n(r.casos)} vítimas · {dec(r.taxa)} por 100 mil" for r in m.itertuples()]
 
 # ================================================================ BLOCO DE ABERTURA: mapa em tela cheia
 st.session_state.setdefault("mapa_k", 0)
+st.session_state.setdefault("mun_sel", "")
+st.session_state.setdefault("ult_mapa", None)
+
+
+def limpar_selecao():
+    st.session_state["mapa_k"] += 1          # novos gráficos = seleção do mapa zerada
+    st.session_state["mun_sel"] = ""
+    st.session_state["ult_mapa"] = None
+
+
+def ao_escolher_na_lista():
+    st.session_state["mapa_k"] += 1          # a lista passa a mandar: tira o destaque do toque anterior no mapa
+
+
+CONTORNO = dict(colorscale=[[0, "rgba(0,0,0,0)"], [1, "rgba(0,0,0,0)"]], showscale=False, hoverinfo="skip",
+                marker_line_color="#ffffff", marker_line_width=3)
+
+
+def figura_mapa(celular: bool):
+    """Os dois mapas ficam na página; o CSS mostra o de computador (largo) ou o de celular conforme a largura da tela."""
+    escala = [[0, "#3d2428"], [0.35, "#9c1a2b"], [0.7, "#e11d2e"], [1, "#ff6272"]]   # legível sobre o fundo escuro
+    fig = go.Figure(go.Choropleth(
+        geojson=malha(), locations=m["cod_ibge"], featureidkey="properties.codarea", z=m["valor"],
+        zmin=0, zmax=zmax, colorscale=escala, text=m["texto_movel"] if celular else m["texto"],
+        hovertemplate="%{text}<extra></extra>", marker_line_color="rgba(15,7,9,0.95)", marker_line_width=0.8,
+        selected=dict(marker=dict(opacity=1)), unselected=dict(marker=dict(opacity=0.5)),
+        colorbar=dict(orientation="h", x=0.865, xanchor="center", y=0.27, yanchor="middle", len=0.24, thickness=11,
+                      title=dict(text=f"{'Taxa' if usa_taxa else 'Vítimas'} ({un})<br>cor máxima a partir de {dec(zmax, 0)}",
+                                 side="top", font=dict(color="#f1e7e8", size=11)),
+                      tickfont=dict(color="#f1e7e8", size=10), outlinewidth=0),
+    ))
+    if sel_mun:                                   # contorno forte nos municípios escolhidos no menu de filtros
+        marcados = m[m["chave"].isin(base["chave"].unique())]
+        fig.add_trace(go.Choropleth(geojson=malha(), locations=marcados["cod_ibge"], featureidkey="properties.codarea",
+                                    z=[1] * len(marcados), **CONTORNO))
+    nome_lista = st.session_state.get("mun_sel", "")
+    if celular and nome_lista and (m["municipio"] == nome_lista).any():     # contorno no município escolhido na lista
+        alvo_l = m[m["municipio"] == nome_lista]
+        fig.add_trace(go.Choropleth(geojson=malha(), locations=alvo_l["cod_ibge"], featureidkey="properties.codarea",
+                                    z=[1], **CONTORNO))
+    if celular:    # o estado ocupa a largura toda e a legenda vai para baixo
+        lon_r, lat_r, altura = [-38.32, -35.12], [-11.1, -8.72], 300
+        fig.update_traces(selector=dict(type="choropleth"), colorbar=dict(x=0.5, xanchor="center", y=0.02, yanchor="bottom", len=0.7))
+    else:          # o estado ocupa a parte direita e deixa o lado esquerdo livre para o texto
+        lon_r, lat_r, altura = [-39.75, -34.95], [-11.30, -8.40], 840
+    fig.update_geos(projection_type="mercator", lonaxis_range=lon_r, lataxis_range=lat_r, visible=False, bgcolor="rgba(0,0,0,0)")
+    # dragmode "turntable": o Streamlit troca dragmode=False por "pan" (e o mapa se moveria ao arrastar)
+    fig.update_layout(height=altura, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="rgba(0,0,0,0)",
+                      geo_bgcolor="rgba(0,0,0,0)", dragmode="turntable",
+                      hoverlabel=dict(bgcolor="#1c0d10", bordercolor="#ff4d5e", font=dict(color="#ffffff", size=13 if celular else 12)))
+    return fig
+
+
+def municipio_tocado(evento):
+    pts = [pt for pt in (evento.selection.points if evento else []) if pt.get("curve_number", 0) == 0]
+    return m.iloc[pts[0]["point_index"]]["cod_ibge"] if pts else None
+
+
+def cartao_municipio(r):
+    ic = f"{dec(r['ic_lo'])} a {dec(r['ic_hi'])}" if r["casos"] else "–"
+    return (f'<div class="hero-sel"><div class="nome">{r["municipio"]}</div>'
+            f'<div class="lin"><span>Vítimas no período</span><b>{n(r["casos"])}</b></div>'
+            f'<div class="lin"><span>Taxa por 100 mil hab./ano</span><b>{dec(r["taxa"])}</b></div>'
+            f'<div class="lin"><span>Intervalo de confiança de 95%</span><b>{ic}</b></div>'
+            f'<div class="lin"><span>População (IBGE)</span><b>{n(r["populacao"])}</b></div></div>')
+
+
 escolhido = None
-try:
-    ua = st.context.headers.get("User-Agent", "").lower()
-except Exception:
-    ua = ""
-movel = any(k in ua for k in ("mobi", "android", "iphone"))
 with hero:
     if m is None:
         st.info("O mapa precisa do arquivo de população (dados_brutos/populacao_municipios_AL.csv). Rode o notebook 03 para gerá-lo.")
     else:
-        # o bloco de abertura é escuro nos dois temas: escala própria, legível sobre fundo escuro
-        escala = [[0, "#3d2428"], [0.35, "#9c1a2b"], [0.7, "#e11d2e"], [1, "#ff6272"]]
-        mapa_fig = go.Figure(go.Choropleth(
-            geojson=malha(), locations=m["cod_ibge"], featureidkey="properties.codarea", z=m["valor"],
-            zmin=0, zmax=zmax, colorscale=escala, text=m["texto"], hovertemplate="%{text}<extra></extra>",
-            marker_line_color="rgba(15,7,9,0.95)", marker_line_width=0.8,
-            selected=dict(marker=dict(opacity=1)), unselected=dict(marker=dict(opacity=0.5)),
-            colorbar=dict(orientation="h", x=0.865, xanchor="center", y=0.27, yanchor="middle", len=0.24, thickness=11,
-                          title=dict(text=f"{'Taxa' if usa_taxa else 'Vítimas'} ({un})<br>cor máxima a partir de {dec(zmax, 0)}",
-                                     side="top", font=dict(color="#f1e7e8", size=11)),
-                          tickfont=dict(color="#f1e7e8", size=10), outlinewidth=0),
-        ))
-        if sel_mun:                                   # contorno forte nos municípios escolhidos no menu
-            marcados = m[m["chave"].isin(base["chave"].unique())]
-            mapa_fig.add_trace(go.Choropleth(
-                geojson=malha(), locations=marcados["cod_ibge"], featureidkey="properties.codarea", z=[1] * len(marcados),
-                colorscale=[[0, "rgba(0,0,0,0)"], [1, "rgba(0,0,0,0)"]], showscale=False, hoverinfo="skip",
-                marker_line_color="#ffffff", marker_line_width=3))
-        if movel:      # celular: o estado ocupa a largura toda e a legenda vai para baixo
-            lon_r, lat_r, altura = [-38.45, -35.0], [-10.75, -8.6], 300
-            mapa_fig.update_traces(colorbar=dict(x=0.5, xanchor="center", y=0.02, yanchor="bottom", len=0.7))
-        else:          # janela fixa: o estado ocupa a parte direita e deixa o lado esquerdo livre para o texto
-            lon_r, lat_r, altura = [-39.75, -34.95], [-11.30, -8.40], 840
-        mapa_fig.update_geos(projection_type="mercator", lonaxis_range=lon_r, lataxis_range=lat_r,
-                             visible=False, bgcolor="rgba(0,0,0,0)")
-        mapa_fig.update_layout(height=altura, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="rgba(0,0,0,0)",
-                               geo_bgcolor="rgba(0,0,0,0)", dragmode="turntable",
-                               hoverlabel=dict(bgcolor="#1c0d10", bordercolor="#ff4d5e", font=dict(color="#ffffff", size=12)))
-        evento = st.plotly_chart(mapa_fig, width="stretch", key=f"mapa_{st.session_state['mapa_k']}",
-                                 config={"displayModeBar": False, "scrollZoom": False},
-                                 on_select="rerun", selection_mode="points")
-        pts = [pt for pt in (evento.selection.points if evento else []) if pt.get("curve_number", 0) == 0]
-        if pts:
-            escolhido = m.iloc[pts[0]["point_index"]]
+        k = st.session_state["mapa_k"]
+        cfg = {"displayModeBar": False, "scrollZoom": False}
+        with st.container(key="mapa_d"):
+            ev_d = st.plotly_chart(figura_mapa(False), width="stretch", key=f"mapa_d_{k}", config=cfg,
+                                   on_select="rerun", selection_mode="points")
+        with st.container(key="mapa_m"):
+            ev_m = st.plotly_chart(figura_mapa(True), width="stretch", key=f"mapa_m_{k}", config=cfg,
+                                   on_select="rerun", selection_mode="points")
+        # a lista de municípios é a fonte única da seleção; tocar em qualquer um dos mapas a preenche
+        cods = [municipio_tocado(ev_d), municipio_tocado(ev_m)]
+        novo = next((c for c in cods if c and c != st.session_state["ult_mapa"]), None)
+        if novo:
+            st.session_state["ult_mapa"] = novo
+            st.session_state["mun_sel"] = m.loc[m["cod_ibge"] == novo, "municipio"].iloc[0]
+        elif not any(cods):
+            st.session_state["ult_mapa"] = None
+        with st.container(key="hero_det"):
+            nome_ok = st.selectbox("Ver um município", [""] + sorted(m["municipio"]), key="mun_sel",
+                                   on_change=ao_escolher_na_lista, format_func=lambda x: x or "Toque no mapa ou escolha aqui…")
+            if nome_ok:
+                escolhido = m[m["municipio"] == nome_ok].iloc[0]
+                st.markdown(cartao_municipio(escolhido), unsafe_allow_html=True)
+                st.button("Limpar seleção", width="stretch", on_click=limpar_selecao, key="limpar_m")
 
     with st.container(key="hero_txt"):
         st.title("Crimes violentos letais em Alagoas")
         st.markdown(f'<div class="hero-cap">Secretaria de Segurança Pública de Alagoas, via portal Alagoas em Dados · '
                     f'dados até <b>{data_pt(ultima)}</b> · publicado em <b>{data_pt(meta["atualizado_em"][:10])}</b></div>',
                     unsafe_allow_html=True)
-        if escolhido is not None:
-            ic = f"{dec(escolhido['ic_lo'])} a {dec(escolhido['ic_hi'])}" if escolhido["casos"] else "–"
-            st.markdown(
-                f'<div class="hero-sel"><div class="nome">{escolhido["municipio"]}</div>'
-                f'<div class="lin"><span>Vítimas no período</span><b>{n(escolhido["casos"])}</b></div>'
-                f'<div class="lin"><span>Taxa por 100 mil hab./ano</span><b>{dec(escolhido["taxa"])}</b></div>'
-                f'<div class="lin"><span>Intervalo de confiança de 95%</span><b>{ic}</b></div>'
-                f'<div class="lin"><span>População (IBGE)</span><b>{n(escolhido["populacao"])}</b></div></div>',
-                unsafe_allow_html=True)
-            if st.button("Limpar seleção", width="stretch"):
-                st.session_state["mapa_k"] += 1
-                st.rerun()
-        else:
+        with st.container(key="sel_d"):                # cartão do município no computador (some no celular)
+            if escolhido is not None:
+                st.markdown(cartao_municipio(escolhido), unsafe_allow_html=True)
+                st.button("Limpar seleção", width="stretch", on_click=limpar_selecao, key="limpar_d")
+        # no computador a manchete dá lugar ao cartão; no celular ela fica sempre (o cartão vai abaixo do mapa)
+        with st.container(key="frase_off" if escolhido is not None else "frase_on"):
             st.markdown(f'<div class="hero-frase">{frase}</div>', unsafe_allow_html=True)
-            st.markdown('<div class="hero-cap">Clique em um município do mapa para ver os detalhes.</div>', unsafe_allow_html=True)
+            st.markdown('<div class="hero-cap"><span class="so-d">Clique em um município do mapa para ver os detalhes.</span>'
+                        '<span class="so-m">Toque em um município do mapa ou escolha na lista abaixo dele.</span></div>',
+                        unsafe_allow_html=True)
 
     if m is not None:
         with st.container(key="hero_rank"):
