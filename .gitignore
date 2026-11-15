@@ -1,2 +1,3 @@
-dados_brutos/
+dados_brutos/*
+!dados_brutos/populacao_municipios_AL.csv
 dados_tratados/

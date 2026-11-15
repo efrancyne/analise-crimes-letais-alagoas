@@ -1,0 +1,1327 @@
+﻿cod_ibge,municipio,ano,populacao,origem
+2700102,Água Branca,2013,20545.0,Estimativa IBGE
+2700102,Água Branca,2014,20601.0,Estimativa IBGE
+2700102,Água Branca,2015,20434.0,Estimativa IBGE
+2700102,Água Branca,2016,20422.0,Estimativa IBGE
+2700102,Água Branca,2017,20467.0,Estimativa IBGE
+2700102,Água Branca,2018,20162.0,Estimativa IBGE
+2700102,Água Branca,2019,20196.0,Estimativa IBGE
+2700102,Água Branca,2020,20230.0,Estimativa IBGE
+2700102,Água Branca,2021,20263.0,Estimativa IBGE
+2700102,Água Branca,2022,19008.0,Censo 2022
+2700102,Água Branca,2023,19279.0,Interpolado
+2700102,Água Branca,2024,19550.0,Estimativa IBGE
+2700102,Água Branca,2025,19550.0,Estimativa IBGE
+2700201,Anadia,2013,17989.0,Estimativa IBGE
+2700201,Anadia,2014,17972.0,Estimativa IBGE
+2700201,Anadia,2015,17847.0,Estimativa IBGE
+2700201,Anadia,2016,17832.0,Estimativa IBGE
+2700201,Anadia,2017,17818.0,Estimativa IBGE
+2700201,Anadia,2018,17564.0,Estimativa IBGE
+2700201,Anadia,2019,17545.0,Estimativa IBGE
+2700201,Anadia,2020,17526.0,Estimativa IBGE
+2700201,Anadia,2021,17507.0,Estimativa IBGE
+2700201,Anadia,2022,13966.0,Censo 2022
+2700201,Anadia,2023,14080.0,Interpolado
+2700201,Anadia,2024,14193.0,Estimativa IBGE
+2700201,Anadia,2025,14167.0,Estimativa IBGE
+2700300,Arapiraca,2013,227640.0,Estimativa IBGE
+2700300,Arapiraca,2014,229329.0,Estimativa IBGE
+2700300,Arapiraca,2015,231053.0,Estimativa IBGE
+2700300,Arapiraca,2016,232671.0,Estimativa IBGE
+2700300,Arapiraca,2017,234185.0,Estimativa IBGE
+2700300,Arapiraca,2018,230417.0,Estimativa IBGE
+2700300,Arapiraca,2019,231747.0,Estimativa IBGE
+2700300,Arapiraca,2020,233047.0,Estimativa IBGE
+2700300,Arapiraca,2021,234309.0,Estimativa IBGE
+2700300,Arapiraca,2022,234696.0,Censo 2022
+2700300,Arapiraca,2023,239178.0,Interpolado
+2700300,Arapiraca,2024,243661.0,Estimativa IBGE
+2700300,Arapiraca,2025,243906.0,Estimativa IBGE
+2700409,Atalaia,2013,46787.0,Estimativa IBGE
+2700409,Atalaia,2014,47052.0,Estimativa IBGE
+2700409,Atalaia,2015,47298.0,Estimativa IBGE
+2700409,Atalaia,2016,47528.0,Estimativa IBGE
+2700409,Atalaia,2017,47744.0,Estimativa IBGE
+2700409,Atalaia,2018,47000.0,Estimativa IBGE
+2700409,Atalaia,2019,47185.0,Estimativa IBGE
+2700409,Atalaia,2020,47365.0,Estimativa IBGE
+2700409,Atalaia,2021,47540.0,Estimativa IBGE
+2700409,Atalaia,2022,37512.0,Censo 2022
+2700409,Atalaia,2023,38021.0,Interpolado
+2700409,Atalaia,2024,38530.0,Estimativa IBGE
+2700409,Atalaia,2025,38480.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2013,15377.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2014,15565.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2015,15742.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2016,15909.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2017,16064.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2018,15792.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2019,15932.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2020,16068.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2021,16201.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2022,16365.0,Censo 2022
+2700508,Barra de Santo Antônio,2023,16550.0,Interpolado
+2700508,Barra de Santo Antônio,2024,16735.0,Estimativa IBGE
+2700508,Barra de Santo Antônio,2025,16756.0,Estimativa IBGE
+2700607,Barra de São Miguel,2013,8112.0,Estimativa IBGE
+2700607,Barra de São Miguel,2014,8191.0,Estimativa IBGE
+2700607,Barra de São Miguel,2015,8266.0,Estimativa IBGE
+2700607,Barra de São Miguel,2016,8336.0,Estimativa IBGE
+2700607,Barra de São Miguel,2017,8401.0,Estimativa IBGE
+2700607,Barra de São Miguel,2018,8264.0,Estimativa IBGE
+2700607,Barra de São Miguel,2019,8322.0,Estimativa IBGE
+2700607,Barra de São Miguel,2020,8378.0,Estimativa IBGE
+2700607,Barra de São Miguel,2021,8434.0,Estimativa IBGE
+2700607,Barra de São Miguel,2022,7944.0,Censo 2022
+2700607,Barra de São Miguel,2023,8031.0,Interpolado
+2700607,Barra de São Miguel,2024,8118.0,Estimativa IBGE
+2700607,Barra de São Miguel,2025,8123.0,Estimativa IBGE
+2700706,Batalha,2013,18201.0,Estimativa IBGE
+2700706,Batalha,2014,18353.0,Estimativa IBGE
+2700706,Batalha,2015,18496.0,Estimativa IBGE
+2700706,Batalha,2016,18631.0,Estimativa IBGE
+2700706,Batalha,2017,18757.0,Estimativa IBGE
+2700706,Batalha,2018,18455.0,Estimativa IBGE
+2700706,Batalha,2019,18232.0,Estimativa IBGE
+2700706,Batalha,2020,18338.0,Estimativa IBGE
+2700706,Batalha,2021,18440.0,Estimativa IBGE
+2700706,Batalha,2022,16448.0,Censo 2022
+2700706,Batalha,2023,16776.0,Interpolado
+2700706,Batalha,2024,17103.0,Estimativa IBGE
+2700706,Batalha,2025,17103.0,Estimativa IBGE
+2700805,Belém,2013,4737.0,Estimativa IBGE
+2700805,Belém,2014,4659.0,Estimativa IBGE
+2700805,Belém,2015,4585.0,Estimativa IBGE
+2700805,Belém,2016,4517.0,Estimativa IBGE
+2700805,Belém,2017,4453.0,Estimativa IBGE
+2700805,Belém,2018,4406.0,Estimativa IBGE
+2700805,Belém,2019,4344.0,Estimativa IBGE
+2700805,Belém,2020,4284.0,Estimativa IBGE
+2700805,Belém,2021,4226.0,Estimativa IBGE
+2700805,Belém,2022,4722.0,Censo 2022
+2700805,Belém,2023,4771.0,Interpolado
+2700805,Belém,2024,4820.0,Estimativa IBGE
+2700805,Belém,2025,4819.0,Estimativa IBGE
+2700904,Belo Monte,2013,6751.0,Estimativa IBGE
+2700904,Belo Monte,2014,6763.0,Estimativa IBGE
+2700904,Belo Monte,2015,6775.0,Estimativa IBGE
+2700904,Belo Monte,2016,6786.0,Estimativa IBGE
+2700904,Belo Monte,2017,6797.0,Estimativa IBGE
+2700904,Belo Monte,2018,6696.0,Estimativa IBGE
+2700904,Belo Monte,2019,6704.0,Estimativa IBGE
+2700904,Belo Monte,2020,6710.0,Estimativa IBGE
+2700904,Belo Monte,2021,6717.0,Estimativa IBGE
+2700904,Belo Monte,2022,5936.0,Censo 2022
+2700904,Belo Monte,2023,5917.0,Interpolado
+2700904,Belo Monte,2024,5898.0,Estimativa IBGE
+2700904,Belo Monte,2025,5895.0,Estimativa IBGE
+2701001,Boca da Mata,2013,27074.0,Estimativa IBGE
+2701001,Boca da Mata,2014,27185.0,Estimativa IBGE
+2701001,Boca da Mata,2015,27399.0,Estimativa IBGE
+2701001,Boca da Mata,2016,27498.0,Estimativa IBGE
+2701001,Boca da Mata,2017,27590.0,Estimativa IBGE
+2701001,Boca da Mata,2018,27168.0,Estimativa IBGE
+2701001,Boca da Mata,2019,27281.0,Estimativa IBGE
+2701001,Boca da Mata,2020,27356.0,Estimativa IBGE
+2701001,Boca da Mata,2021,27429.0,Estimativa IBGE
+2701001,Boca da Mata,2022,21187.0,Censo 2022
+2701001,Boca da Mata,2023,21352.0,Interpolado
+2701001,Boca da Mata,2024,21517.0,Estimativa IBGE
+2701001,Boca da Mata,2025,21479.0,Estimativa IBGE
+2701100,Branquinha,2013,10823.0,Estimativa IBGE
+2701100,Branquinha,2014,10783.0,Estimativa IBGE
+2701100,Branquinha,2015,10745.0,Estimativa IBGE
+2701100,Branquinha,2016,10709.0,Estimativa IBGE
+2701100,Branquinha,2017,10675.0,Estimativa IBGE
+2701100,Branquinha,2018,10529.0,Estimativa IBGE
+2701100,Branquinha,2019,10494.0,Estimativa IBGE
+2701100,Branquinha,2020,10460.0,Estimativa IBGE
+2701100,Branquinha,2021,10426.0,Estimativa IBGE
+2701100,Branquinha,2022,9603.0,Censo 2022
+2701100,Branquinha,2023,9694.0,Interpolado
+2701100,Branquinha,2024,9786.0,Estimativa IBGE
+2701100,Branquinha,2025,9779.0,Estimativa IBGE
+2701209,Cacimbinhas,2013,10729.0,Estimativa IBGE
+2701209,Cacimbinhas,2014,10775.0,Estimativa IBGE
+2701209,Cacimbinhas,2015,10818.0,Estimativa IBGE
+2701209,Cacimbinhas,2016,10859.0,Estimativa IBGE
+2701209,Cacimbinhas,2017,10897.0,Estimativa IBGE
+2701209,Cacimbinhas,2018,10730.0,Estimativa IBGE
+2701209,Cacimbinhas,2019,10858.0,Estimativa IBGE
+2701209,Cacimbinhas,2020,10889.0,Estimativa IBGE
+2701209,Cacimbinhas,2021,10920.0,Estimativa IBGE
+2701209,Cacimbinhas,2022,10482.0,Censo 2022
+2701209,Cacimbinhas,2023,10592.0,Interpolado
+2701209,Cacimbinhas,2024,10701.0,Estimativa IBGE
+2701209,Cacimbinhas,2025,10705.0,Estimativa IBGE
+2701308,Cajueiro,2013,21480.0,Estimativa IBGE
+2701308,Cajueiro,2014,21261.0,Estimativa IBGE
+2701308,Cajueiro,2015,21355.0,Estimativa IBGE
+2701308,Cajueiro,2016,21443.0,Estimativa IBGE
+2701308,Cajueiro,2017,21526.0,Estimativa IBGE
+2701308,Cajueiro,2018,21194.0,Estimativa IBGE
+2701308,Cajueiro,2019,21264.0,Estimativa IBGE
+2701308,Cajueiro,2020,21331.0,Estimativa IBGE
+2701308,Cajueiro,2021,21397.0,Estimativa IBGE
+2701308,Cajueiro,2022,16024.0,Censo 2022
+2701308,Cajueiro,2023,16314.0,Interpolado
+2701308,Cajueiro,2024,16605.0,Estimativa IBGE
+2701308,Cajueiro,2025,16572.0,Estimativa IBGE
+2701357,Campestre,2013,6925.0,Estimativa IBGE
+2701357,Campestre,2014,6952.0,Estimativa IBGE
+2701357,Campestre,2015,6978.0,Estimativa IBGE
+2701357,Campestre,2016,7002.0,Estimativa IBGE
+2701357,Campestre,2017,7024.0,Estimativa IBGE
+2701357,Campestre,2018,6918.0,Estimativa IBGE
+2701357,Campestre,2019,6936.0,Estimativa IBGE
+2701357,Campestre,2020,6954.0,Estimativa IBGE
+2701357,Campestre,2021,6972.0,Estimativa IBGE
+2701357,Campestre,2022,6665.0,Censo 2022
+2701357,Campestre,2023,6736.0,Interpolado
+2701357,Campestre,2024,6807.0,Estimativa IBGE
+2701357,Campestre,2025,6808.0,Estimativa IBGE
+2701407,Campo Alegre,2013,55161.0,Estimativa IBGE
+2701407,Campo Alegre,2014,55814.0,Estimativa IBGE
+2701407,Campo Alegre,2015,56430.0,Estimativa IBGE
+2701407,Campo Alegre,2016,57008.0,Estimativa IBGE
+2701407,Campo Alegre,2017,57548.0,Estimativa IBGE
+2701407,Campo Alegre,2018,56579.0,Estimativa IBGE
+2701407,Campo Alegre,2019,57063.0,Estimativa IBGE
+2701407,Campo Alegre,2020,57537.0,Estimativa IBGE
+2701407,Campo Alegre,2021,57997.0,Estimativa IBGE
+2701407,Campo Alegre,2022,32106.0,Censo 2022
+2701407,Campo Alegre,2023,32410.0,Interpolado
+2701407,Campo Alegre,2024,32714.0,Estimativa IBGE
+2701407,Campo Alegre,2025,32558.0,Estimativa IBGE
+2701506,Campo Grande,2013,9631.0,Estimativa IBGE
+2701506,Campo Grande,2014,9646.0,Estimativa IBGE
+2701506,Campo Grande,2015,9664.0,Estimativa IBGE
+2701506,Campo Grande,2016,9678.0,Estimativa IBGE
+2701506,Campo Grande,2017,9692.0,Estimativa IBGE
+2701506,Campo Grande,2018,9549.0,Estimativa IBGE
+2701506,Campo Grande,2019,9558.0,Estimativa IBGE
+2701506,Campo Grande,2020,9567.0,Estimativa IBGE
+2701506,Campo Grande,2021,9576.0,Estimativa IBGE
+2701506,Campo Grande,2022,8143.0,Censo 2022
+2701506,Campo Grande,2023,8218.0,Interpolado
+2701506,Campo Grande,2024,8293.0,Estimativa IBGE
+2701506,Campo Grande,2025,8285.0,Estimativa IBGE
+2701605,Canapi,2013,17880.0,Estimativa IBGE
+2701605,Canapi,2014,17973.0,Estimativa IBGE
+2701605,Canapi,2015,17976.0,Estimativa IBGE
+2701605,Canapi,2016,17980.0,Estimativa IBGE
+2701605,Canapi,2017,17983.0,Estimativa IBGE
+2701605,Canapi,2018,17726.0,Estimativa IBGE
+2701605,Canapi,2019,17722.0,Estimativa IBGE
+2701605,Canapi,2020,17719.0,Estimativa IBGE
+2701605,Canapi,2021,17715.0,Estimativa IBGE
+2701605,Canapi,2022,15559.0,Censo 2022
+2701605,Canapi,2023,15651.0,Interpolado
+2701605,Canapi,2024,15743.0,Estimativa IBGE
+2701605,Canapi,2025,15730.0,Estimativa IBGE
+2701704,Capela,2013,17266.0,Estimativa IBGE
+2701704,Capela,2014,17591.0,Estimativa IBGE
+2701704,Capela,2015,17507.0,Estimativa IBGE
+2701704,Capela,2016,17428.0,Estimativa IBGE
+2701704,Capela,2017,17354.0,Estimativa IBGE
+2701704,Capela,2018,17124.0,Estimativa IBGE
+2701704,Capela,2019,17053.0,Estimativa IBGE
+2701704,Capela,2020,16979.0,Estimativa IBGE
+2701704,Capela,2021,16907.0,Estimativa IBGE
+2701704,Capela,2022,15032.0,Censo 2022
+2701704,Capela,2023,15050.0,Interpolado
+2701704,Capela,2024,15068.0,Estimativa IBGE
+2701704,Capela,2025,15051.0,Estimativa IBGE
+2701803,Carneiros,2013,8758.0,Estimativa IBGE
+2701803,Carneiros,2014,8867.0,Estimativa IBGE
+2701803,Carneiros,2015,8969.0,Estimativa IBGE
+2701803,Carneiros,2016,9065.0,Estimativa IBGE
+2701803,Carneiros,2017,9155.0,Estimativa IBGE
+2701803,Carneiros,2018,9000.0,Estimativa IBGE
+2701803,Carneiros,2019,9081.0,Estimativa IBGE
+2701803,Carneiros,2020,9159.0,Estimativa IBGE
+2701803,Carneiros,2021,9568.0,Estimativa IBGE
+2701803,Carneiros,2022,8999.0,Censo 2022
+2701803,Carneiros,2023,9100.0,Interpolado
+2701803,Carneiros,2024,9200.0,Estimativa IBGE
+2701803,Carneiros,2025,9206.0,Estimativa IBGE
+2701902,Chã Preta,2013,7413.0,Estimativa IBGE
+2701902,Chã Preta,2014,7417.0,Estimativa IBGE
+2701902,Chã Preta,2015,7421.0,Estimativa IBGE
+2701902,Chã Preta,2016,7424.0,Estimativa IBGE
+2701902,Chã Preta,2017,7427.0,Estimativa IBGE
+2701902,Chã Preta,2018,7319.0,Estimativa IBGE
+2701902,Chã Preta,2019,7311.0,Estimativa IBGE
+2701902,Chã Preta,2020,7311.0,Estimativa IBGE
+2701902,Chã Preta,2021,7311.0,Estimativa IBGE
+2701902,Chã Preta,2022,5910.0,Censo 2022
+2701902,Chã Preta,2023,5960.0,Interpolado
+2701902,Chã Preta,2024,6010.0,Estimativa IBGE
+2701902,Chã Preta,2025,6000.0,Estimativa IBGE
+2702009,Coité do Nóia,2013,11110.0,Estimativa IBGE
+2702009,Coité do Nóia,2014,11049.0,Estimativa IBGE
+2702009,Coité do Nóia,2015,10992.0,Estimativa IBGE
+2702009,Coité do Nóia,2016,10939.0,Estimativa IBGE
+2702009,Coité do Nóia,2017,10888.0,Estimativa IBGE
+2702009,Coité do Nóia,2018,10744.0,Estimativa IBGE
+2702009,Coité do Nóia,2019,10693.0,Estimativa IBGE
+2702009,Coité do Nóia,2020,10643.0,Estimativa IBGE
+2702009,Coité do Nóia,2021,10594.0,Estimativa IBGE
+2702009,Coité do Nóia,2022,10810.0,Censo 2022
+2702009,Coité do Nóia,2023,10923.0,Interpolado
+2702009,Coité do Nóia,2024,11036.0,Estimativa IBGE
+2702009,Coité do Nóia,2025,11036.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2013,21307.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2014,21477.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2015,21636.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2016,21786.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2017,21926.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2018,21575.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2019,21698.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2020,21818.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2021,21935.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2022,15816.0,Censo 2022
+2702108,Colônia Leopoldina,2023,15882.0,Interpolado
+2702108,Colônia Leopoldina,2024,15949.0,Estimativa IBGE
+2702108,Colônia Leopoldina,2025,15915.0,Estimativa IBGE
+2702207,Coqueiro Seco,2013,5817.0,Estimativa IBGE
+2702207,Coqueiro Seco,2014,5844.0,Estimativa IBGE
+2702207,Coqueiro Seco,2015,5870.0,Estimativa IBGE
+2702207,Coqueiro Seco,2016,5895.0,Estimativa IBGE
+2702207,Coqueiro Seco,2017,5918.0,Estimativa IBGE
+2702207,Coqueiro Seco,2018,5826.0,Estimativa IBGE
+2702207,Coqueiro Seco,2019,5845.0,Estimativa IBGE
+2702207,Coqueiro Seco,2020,5864.0,Estimativa IBGE
+2702207,Coqueiro Seco,2021,5882.0,Estimativa IBGE
+2702207,Coqueiro Seco,2022,5581.0,Censo 2022
+2702207,Coqueiro Seco,2023,5640.0,Interpolado
+2702207,Coqueiro Seco,2024,5700.0,Estimativa IBGE
+2702207,Coqueiro Seco,2025,5701.0,Estimativa IBGE
+2702306,Coruripe,2013,55648.0,Estimativa IBGE
+2702306,Coruripe,2014,56153.0,Estimativa IBGE
+2702306,Coruripe,2015,56631.0,Estimativa IBGE
+2702306,Coruripe,2016,57079.0,Estimativa IBGE
+2702306,Coruripe,2017,57498.0,Estimativa IBGE
+2702306,Coruripe,2018,56562.0,Estimativa IBGE
+2702306,Coruripe,2019,56933.0,Estimativa IBGE
+2702306,Coruripe,2020,57294.0,Estimativa IBGE
+2702306,Coruripe,2021,57647.0,Estimativa IBGE
+2702306,Coruripe,2022,50414.0,Censo 2022
+2702306,Coruripe,2023,51101.0,Interpolado
+2702306,Coruripe,2024,51788.0,Estimativa IBGE
+2702306,Coruripe,2025,51784.0,Estimativa IBGE
+2702355,Craíbas,2013,23885.0,Estimativa IBGE
+2702355,Craíbas,2014,24166.0,Estimativa IBGE
+2702355,Craíbas,2015,24288.0,Estimativa IBGE
+2702355,Craíbas,2016,24403.0,Estimativa IBGE
+2702355,Craíbas,2017,24510.0,Estimativa IBGE
+2702355,Craíbas,2018,24129.0,Estimativa IBGE
+2702355,Craíbas,2019,24219.0,Estimativa IBGE
+2702355,Craíbas,2020,24309.0,Estimativa IBGE
+2702355,Craíbas,2021,24396.0,Estimativa IBGE
+2702355,Craíbas,2022,25397.0,Censo 2022
+2702355,Craíbas,2023,25756.0,Interpolado
+2702355,Craíbas,2024,26115.0,Estimativa IBGE
+2702355,Craíbas,2025,26144.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2013,50999.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2014,51349.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2015,51997.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2016,52306.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2017,52597.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2018,51763.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2019,52016.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2020,52262.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2021,52501.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2022,51318.0,Censo 2022
+2702405,Delmiro Gouveia,2023,52064.0,Interpolado
+2702405,Delmiro Gouveia,2024,52809.0,Estimativa IBGE
+2702405,Delmiro Gouveia,2025,52845.0,Estimativa IBGE
+2702504,Dois Riachos,2013,11234.0,Estimativa IBGE
+2702504,Dois Riachos,2014,11229.0,Estimativa IBGE
+2702504,Dois Riachos,2015,11224.0,Estimativa IBGE
+2702504,Dois Riachos,2016,11219.0,Estimativa IBGE
+2702504,Dois Riachos,2017,11214.0,Estimativa IBGE
+2702504,Dois Riachos,2018,11054.0,Estimativa IBGE
+2702504,Dois Riachos,2019,11075.0,Estimativa IBGE
+2702504,Dois Riachos,2020,11067.0,Estimativa IBGE
+2702504,Dois Riachos,2021,11059.0,Estimativa IBGE
+2702504,Dois Riachos,2022,9805.0,Censo 2022
+2702504,Dois Riachos,2023,9856.0,Interpolado
+2702504,Dois Riachos,2024,9906.0,Estimativa IBGE
+2702504,Dois Riachos,2025,9898.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2013,18123.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2014,18198.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2015,18306.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2016,18373.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2017,18435.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2018,18153.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2019,18205.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2020,18255.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2021,18304.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2022,15429.0,Censo 2022
+2702553,Estrela de Alagoas,2023,15565.0,Interpolado
+2702553,Estrela de Alagoas,2024,15701.0,Estimativa IBGE
+2702553,Estrela de Alagoas,2025,15688.0,Estimativa IBGE
+2702603,Feira Grande,2013,22377.0,Estimativa IBGE
+2702603,Feira Grande,2014,22406.0,Estimativa IBGE
+2702603,Feira Grande,2015,22432.0,Estimativa IBGE
+2702603,Feira Grande,2016,22458.0,Estimativa IBGE
+2702603,Feira Grande,2017,22481.0,Estimativa IBGE
+2702603,Feira Grande,2018,22152.0,Estimativa IBGE
+2702603,Feira Grande,2019,22166.0,Estimativa IBGE
+2702603,Feira Grande,2020,22178.0,Estimativa IBGE
+2702603,Feira Grande,2021,22192.0,Estimativa IBGE
+2702603,Feira Grande,2022,22712.0,Censo 2022
+2702603,Feira Grande,2023,22952.0,Interpolado
+2702603,Feira Grande,2024,23191.0,Estimativa IBGE
+2702603,Feira Grande,2025,23204.0,Estimativa IBGE
+2702702,Feliz Deserto,2013,4678.0,Estimativa IBGE
+2702702,Feliz Deserto,2014,4714.0,Estimativa IBGE
+2702702,Feliz Deserto,2015,4746.0,Estimativa IBGE
+2702702,Feliz Deserto,2016,4777.0,Estimativa IBGE
+2702702,Feliz Deserto,2017,4806.0,Estimativa IBGE
+2702702,Feliz Deserto,2018,4729.0,Estimativa IBGE
+2702702,Feliz Deserto,2019,4754.0,Estimativa IBGE
+2702702,Feliz Deserto,2020,4779.0,Estimativa IBGE
+2702702,Feliz Deserto,2021,4803.0,Estimativa IBGE
+2702702,Feliz Deserto,2022,3963.0,Censo 2022
+2702702,Feliz Deserto,2023,4000.0,Interpolado
+2702702,Feliz Deserto,2024,4038.0,Estimativa IBGE
+2702702,Feliz Deserto,2025,4035.0,Estimativa IBGE
+2702801,Flexeiras,2013,12862.0,Estimativa IBGE
+2702801,Flexeiras,2014,12890.0,Estimativa IBGE
+2702801,Flexeiras,2015,12917.0,Estimativa IBGE
+2702801,Flexeiras,2016,12943.0,Estimativa IBGE
+2702801,Flexeiras,2017,12966.0,Estimativa IBGE
+2702801,Flexeiras,2018,12773.0,Estimativa IBGE
+2702801,Flexeiras,2019,12790.0,Estimativa IBGE
+2702801,Flexeiras,2020,12807.0,Estimativa IBGE
+2702801,Flexeiras,2021,12823.0,Estimativa IBGE
+2702801,Flexeiras,2022,9618.0,Censo 2022
+2702801,Flexeiras,2023,9692.0,Interpolado
+2702801,Flexeiras,2024,9767.0,Estimativa IBGE
+2702801,Flexeiras,2025,9745.0,Estimativa IBGE
+2702900,Girau do Ponciano,2013,39657.0,Estimativa IBGE
+2702900,Girau do Ponciano,2014,40100.0,Estimativa IBGE
+2702900,Girau do Ponciano,2015,40519.0,Estimativa IBGE
+2702900,Girau do Ponciano,2016,40912.0,Estimativa IBGE
+2702900,Girau do Ponciano,2017,41279.0,Estimativa IBGE
+2702900,Girau do Ponciano,2018,40588.0,Estimativa IBGE
+2702900,Girau do Ponciano,2019,40917.0,Estimativa IBGE
+2702900,Girau do Ponciano,2020,41237.0,Estimativa IBGE
+2702900,Girau do Ponciano,2021,41549.0,Estimativa IBGE
+2702900,Girau do Ponciano,2022,36102.0,Censo 2022
+2702900,Girau do Ponciano,2023,36718.0,Interpolado
+2702900,Girau do Ponciano,2024,37335.0,Estimativa IBGE
+2702900,Girau do Ponciano,2025,37337.0,Estimativa IBGE
+2703007,Ibateguara,2013,15762.0,Estimativa IBGE
+2703007,Ibateguara,2014,15783.0,Estimativa IBGE
+2703007,Ibateguara,2015,15803.0,Estimativa IBGE
+2703007,Ibateguara,2016,15822.0,Estimativa IBGE
+2703007,Ibateguara,2017,15840.0,Estimativa IBGE
+2703007,Ibateguara,2018,15606.0,Estimativa IBGE
+2703007,Ibateguara,2019,15616.0,Estimativa IBGE
+2703007,Ibateguara,2020,15627.0,Estimativa IBGE
+2703007,Ibateguara,2021,15637.0,Estimativa IBGE
+2703007,Ibateguara,2022,13731.0,Censo 2022
+2703007,Ibateguara,2023,13862.0,Interpolado
+2703007,Ibateguara,2024,13992.0,Estimativa IBGE
+2703007,Ibateguara,2025,13982.0,Estimativa IBGE
+2703106,Igaci,2013,26051.0,Estimativa IBGE
+2703106,Igaci,2014,26060.0,Estimativa IBGE
+2703106,Igaci,2015,26041.0,Estimativa IBGE
+2703106,Igaci,2016,26031.0,Estimativa IBGE
+2703106,Igaci,2017,26022.0,Estimativa IBGE
+2703106,Igaci,2018,25649.0,Estimativa IBGE
+2703106,Igaci,2019,25631.0,Estimativa IBGE
+2703106,Igaci,2020,25613.0,Estimativa IBGE
+2703106,Igaci,2021,25596.0,Estimativa IBGE
+2703106,Igaci,2022,23995.0,Censo 2022
+2703106,Igaci,2023,24224.0,Interpolado
+2703106,Igaci,2024,24452.0,Estimativa IBGE
+2703106,Igaci,2025,24445.0,Estimativa IBGE
+2703205,Igreja Nova,2013,24328.0,Estimativa IBGE
+2703205,Igreja Nova,2014,24455.0,Estimativa IBGE
+2703205,Igreja Nova,2015,24575.0,Estimativa IBGE
+2703205,Igreja Nova,2016,24687.0,Estimativa IBGE
+2703205,Igreja Nova,2017,24793.0,Estimativa IBGE
+2703205,Igreja Nova,2018,24408.0,Estimativa IBGE
+2703205,Igreja Nova,2019,24499.0,Estimativa IBGE
+2703205,Igreja Nova,2020,24586.0,Estimativa IBGE
+2703205,Igreja Nova,2021,24670.0,Estimativa IBGE
+2703205,Igreja Nova,2022,21372.0,Censo 2022
+2703205,Igreja Nova,2023,21748.0,Interpolado
+2703205,Igreja Nova,2024,22125.0,Estimativa IBGE
+2703205,Igreja Nova,2025,22113.0,Estimativa IBGE
+2703304,Inhapi,2013,18516.0,Estimativa IBGE
+2703304,Inhapi,2014,18535.0,Estimativa IBGE
+2703304,Inhapi,2015,18621.0,Estimativa IBGE
+2703304,Inhapi,2016,18637.0,Estimativa IBGE
+2703304,Inhapi,2017,18652.0,Estimativa IBGE
+2703304,Inhapi,2018,18378.0,Estimativa IBGE
+2703304,Inhapi,2019,18385.0,Estimativa IBGE
+2703304,Inhapi,2020,18392.0,Estimativa IBGE
+2703304,Inhapi,2021,18398.0,Estimativa IBGE
+2703304,Inhapi,2022,15167.0,Censo 2022
+2703304,Inhapi,2023,15292.0,Interpolado
+2703304,Inhapi,2024,15417.0,Estimativa IBGE
+2703304,Inhapi,2025,15396.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2013,5511.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2014,5469.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2015,5429.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2016,5391.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2017,5356.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2018,5288.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2019,5253.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2020,5219.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2021,5185.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2022,5083.0,Censo 2022
+2703403,Jacaré dos Homens,2023,5132.0,Interpolado
+2703403,Jacaré dos Homens,2024,5182.0,Estimativa IBGE
+2703403,Jacaré dos Homens,2025,5180.0,Estimativa IBGE
+2703502,Jacuípe,2013,7193.0,Estimativa IBGE
+2703502,Jacuípe,2014,7177.0,Estimativa IBGE
+2703502,Jacuípe,2015,7162.0,Estimativa IBGE
+2703502,Jacuípe,2016,7148.0,Estimativa IBGE
+2703502,Jacuípe,2017,7135.0,Estimativa IBGE
+2703502,Jacuípe,2018,7036.0,Estimativa IBGE
+2703502,Jacuípe,2019,7021.0,Estimativa IBGE
+2703502,Jacuípe,2020,7006.0,Estimativa IBGE
+2703502,Jacuípe,2021,6992.0,Estimativa IBGE
+2703502,Jacuípe,2022,5352.0,Censo 2022
+2703502,Jacuípe,2023,5392.0,Interpolado
+2703502,Jacuípe,2024,5432.0,Estimativa IBGE
+2703502,Jacuípe,2025,5419.0,Estimativa IBGE
+2703601,Japaratinga,2013,8234.0,Estimativa IBGE
+2703601,Japaratinga,2014,8294.0,Estimativa IBGE
+2703601,Japaratinga,2015,8350.0,Estimativa IBGE
+2703601,Japaratinga,2016,8403.0,Estimativa IBGE
+2703601,Japaratinga,2017,8453.0,Estimativa IBGE
+2703601,Japaratinga,2018,8317.0,Estimativa IBGE
+2703601,Japaratinga,2019,8361.0,Estimativa IBGE
+2703601,Japaratinga,2020,8403.0,Estimativa IBGE
+2703601,Japaratinga,2021,8444.0,Estimativa IBGE
+2703601,Japaratinga,2022,9219.0,Censo 2022
+2703601,Japaratinga,2023,9331.0,Interpolado
+2703601,Japaratinga,2024,9443.0,Estimativa IBGE
+2703601,Japaratinga,2025,9457.0,Estimativa IBGE
+2703700,Jaramataia,2013,5718.0,Estimativa IBGE
+2703700,Jaramataia,2014,5706.0,Estimativa IBGE
+2703700,Jaramataia,2015,5695.0,Estimativa IBGE
+2703700,Jaramataia,2016,5685.0,Estimativa IBGE
+2703700,Jaramataia,2017,5676.0,Estimativa IBGE
+2703700,Jaramataia,2018,5597.0,Estimativa IBGE
+2703700,Jaramataia,2019,5770.0,Estimativa IBGE
+2703700,Jaramataia,2020,5761.0,Estimativa IBGE
+2703700,Jaramataia,2021,5751.0,Estimativa IBGE
+2703700,Jaramataia,2022,4985.0,Censo 2022
+2703700,Jaramataia,2023,5030.0,Interpolado
+2703700,Jaramataia,2024,5075.0,Estimativa IBGE
+2703700,Jaramataia,2025,5069.0,Estimativa IBGE
+2703759,Jequiá da Praia,2013,11969.0,Estimativa IBGE
+2703759,Jequiá da Praia,2014,11918.0,Estimativa IBGE
+2703759,Jequiá da Praia,2015,11869.0,Estimativa IBGE
+2703759,Jequiá da Praia,2016,11824.0,Estimativa IBGE
+2703759,Jequiá da Praia,2017,11782.0,Estimativa IBGE
+2703759,Jequiá da Praia,2018,11624.0,Estimativa IBGE
+2703759,Jequiá da Praia,2019,11580.0,Estimativa IBGE
+2703759,Jequiá da Praia,2020,11536.0,Estimativa IBGE
+2703759,Jequiá da Praia,2021,11495.0,Estimativa IBGE
+2703759,Jequiá da Praia,2022,9470.0,Censo 2022
+2703759,Jequiá da Praia,2023,9548.0,Interpolado
+2703759,Jequiá da Praia,2024,9625.0,Estimativa IBGE
+2703759,Jequiá da Praia,2025,9607.0,Estimativa IBGE
+2703809,Joaquim Gomes,2013,23813.0,Estimativa IBGE
+2703809,Joaquim Gomes,2014,23941.0,Estimativa IBGE
+2703809,Joaquim Gomes,2015,24061.0,Estimativa IBGE
+2703809,Joaquim Gomes,2016,24174.0,Estimativa IBGE
+2703809,Joaquim Gomes,2017,24280.0,Estimativa IBGE
+2703809,Joaquim Gomes,2018,23903.0,Estimativa IBGE
+2703809,Joaquim Gomes,2019,23993.0,Estimativa IBGE
+2703809,Joaquim Gomes,2020,24081.0,Estimativa IBGE
+2703809,Joaquim Gomes,2021,24167.0,Estimativa IBGE
+2703809,Joaquim Gomes,2022,17150.0,Censo 2022
+2703809,Joaquim Gomes,2023,17268.0,Interpolado
+2703809,Joaquim Gomes,2024,17386.0,Estimativa IBGE
+2703809,Joaquim Gomes,2025,17342.0,Estimativa IBGE
+2703908,Jundiá,2013,4275.0,Estimativa IBGE
+2703908,Jundiá,2014,4253.0,Estimativa IBGE
+2703908,Jundiá,2015,4269.0,Estimativa IBGE
+2703908,Jundiá,2016,4249.0,Estimativa IBGE
+2703908,Jundiá,2017,4231.0,Estimativa IBGE
+2703908,Jundiá,2018,4175.0,Estimativa IBGE
+2703908,Jundiá,2019,4155.0,Estimativa IBGE
+2703908,Jundiá,2020,4137.0,Estimativa IBGE
+2703908,Jundiá,2021,4119.0,Estimativa IBGE
+2703908,Jundiá,2022,4092.0,Censo 2022
+2703908,Jundiá,2023,4134.0,Interpolado
+2703908,Jundiá,2024,4176.0,Estimativa IBGE
+2703908,Jundiá,2025,4175.0,Estimativa IBGE
+2704005,Junqueiro,2013,25073.0,Estimativa IBGE
+2704005,Junqueiro,2014,25078.0,Estimativa IBGE
+2704005,Junqueiro,2015,25084.0,Estimativa IBGE
+2704005,Junqueiro,2016,25088.0,Estimativa IBGE
+2704005,Junqueiro,2017,25093.0,Estimativa IBGE
+2704005,Junqueiro,2018,24731.0,Estimativa IBGE
+2704005,Junqueiro,2019,24727.0,Estimativa IBGE
+2704005,Junqueiro,2020,24722.0,Estimativa IBGE
+2704005,Junqueiro,2021,24716.0,Estimativa IBGE
+2704005,Junqueiro,2022,23907.0,Censo 2022
+2704005,Junqueiro,2023,24144.0,Interpolado
+2704005,Junqueiro,2024,24381.0,Estimativa IBGE
+2704005,Junqueiro,2025,24382.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2013,18566.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2014,18437.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2015,18343.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2016,18256.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2017,18175.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2018,17934.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2019,17852.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2020,17771.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2021,17692.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2022,18457.0,Censo 2022
+2704104,Lagoa da Canoa,2023,18644.0,Interpolado
+2704104,Lagoa da Canoa,2024,18831.0,Estimativa IBGE
+2704104,Lagoa da Canoa,2025,18836.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2013,28244.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2014,28439.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2015,28621.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2016,28793.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2017,28953.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2018,28495.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2019,28635.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2020,28771.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2021,28904.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2022,24740.0,Censo 2022
+2704203,Limoeiro de Anadia,2023,24968.0,Interpolado
+2704203,Limoeiro de Anadia,2024,25197.0,Estimativa IBGE
+2704203,Limoeiro de Anadia,2025,25184.0,Estimativa IBGE
+2704302,Maceió,2013,996733.0,Estimativa IBGE
+2704302,Maceió,2014,1005319.0,Estimativa IBGE
+2704302,Maceió,2015,1013773.0,Estimativa IBGE
+2704302,Maceió,2016,1021709.0,Estimativa IBGE
+2704302,Maceió,2017,1029129.0,Estimativa IBGE
+2704302,Maceió,2018,1012382.0,Estimativa IBGE
+2704302,Maceió,2019,1018948.0,Estimativa IBGE
+2704302,Maceió,2020,1025360.0,Estimativa IBGE
+2704302,Maceió,2021,1031597.0,Estimativa IBGE
+2704302,Maceió,2022,957916.0,Censo 2022
+2704302,Maceió,2023,976190.0,Interpolado
+2704302,Maceió,2024,994464.0,Estimativa IBGE
+2704302,Maceió,2025,994952.0,Estimativa IBGE
+2704401,Major Isidoro,2013,19874.0,Estimativa IBGE
+2704401,Major Isidoro,2014,19963.0,Estimativa IBGE
+2704401,Major Isidoro,2015,20047.0,Estimativa IBGE
+2704401,Major Isidoro,2016,20126.0,Estimativa IBGE
+2704401,Major Isidoro,2017,20200.0,Estimativa IBGE
+2704401,Major Isidoro,2018,19891.0,Estimativa IBGE
+2704401,Major Isidoro,2019,19804.0,Estimativa IBGE
+2704401,Major Isidoro,2020,19864.0,Estimativa IBGE
+2704401,Major Isidoro,2021,19923.0,Estimativa IBGE
+2704401,Major Isidoro,2022,17700.0,Censo 2022
+2704401,Major Isidoro,2023,17767.0,Interpolado
+2704401,Major Isidoro,2024,17834.0,Estimativa IBGE
+2704401,Major Isidoro,2025,17828.0,Estimativa IBGE
+2704500,Maragogi,2013,31299.0,Estimativa IBGE
+2704500,Maragogi,2014,31748.0,Estimativa IBGE
+2704500,Maragogi,2015,32171.0,Estimativa IBGE
+2704500,Maragogi,2016,32568.0,Estimativa IBGE
+2704500,Maragogi,2017,32940.0,Estimativa IBGE
+2704500,Maragogi,2018,32369.0,Estimativa IBGE
+2704500,Maragogi,2019,32704.0,Estimativa IBGE
+2704500,Maragogi,2020,33032.0,Estimativa IBGE
+2704500,Maragogi,2021,33351.0,Estimativa IBGE
+2704500,Maragogi,2022,32174.0,Censo 2022
+2704500,Maragogi,2023,32703.0,Interpolado
+2704500,Maragogi,2024,33232.0,Estimativa IBGE
+2704500,Maragogi,2025,33269.0,Estimativa IBGE
+2704609,Maravilha,2013,10168.0,Estimativa IBGE
+2704609,Maravilha,2014,9962.0,Estimativa IBGE
+2704609,Maravilha,2015,9770.0,Estimativa IBGE
+2704609,Maravilha,2016,9588.0,Estimativa IBGE
+2704609,Maravilha,2017,9418.0,Estimativa IBGE
+2704609,Maravilha,2018,9326.0,Estimativa IBGE
+2704609,Maravilha,2019,9163.0,Estimativa IBGE
+2704609,Maravilha,2020,9004.0,Estimativa IBGE
+2704609,Maravilha,2021,8850.0,Estimativa IBGE
+2704609,Maravilha,2022,9534.0,Censo 2022
+2704609,Maravilha,2023,9624.0,Interpolado
+2704609,Maravilha,2024,9715.0,Estimativa IBGE
+2704609,Maravilha,2025,9709.0,Estimativa IBGE
+2704708,Marechal Deodoro,2013,49853.0,Estimativa IBGE
+2704708,Marechal Deodoro,2014,50512.0,Estimativa IBGE
+2704708,Marechal Deodoro,2015,51132.0,Estimativa IBGE
+2704708,Marechal Deodoro,2016,51715.0,Estimativa IBGE
+2704708,Marechal Deodoro,2017,52260.0,Estimativa IBGE
+2704708,Marechal Deodoro,2018,51364.0,Estimativa IBGE
+2704708,Marechal Deodoro,2019,51901.0,Estimativa IBGE
+2704708,Marechal Deodoro,2020,52380.0,Estimativa IBGE
+2704708,Marechal Deodoro,2021,52848.0,Estimativa IBGE
+2704708,Marechal Deodoro,2022,60370.0,Censo 2022
+2704708,Marechal Deodoro,2023,61356.0,Interpolado
+2704708,Marechal Deodoro,2024,62341.0,Estimativa IBGE
+2704708,Marechal Deodoro,2025,62477.0,Estimativa IBGE
+2704807,Maribondo,2013,13807.0,Estimativa IBGE
+2704807,Maribondo,2014,13719.0,Estimativa IBGE
+2704807,Maribondo,2015,13665.0,Estimativa IBGE
+2704807,Maribondo,2016,13587.0,Estimativa IBGE
+2704807,Maribondo,2017,13514.0,Estimativa IBGE
+2704807,Maribondo,2018,13337.0,Estimativa IBGE
+2704807,Maribondo,2019,13264.0,Estimativa IBGE
+2704807,Maribondo,2020,13193.0,Estimativa IBGE
+2704807,Maribondo,2021,13123.0,Estimativa IBGE
+2704807,Maribondo,2022,13679.0,Censo 2022
+2704807,Maribondo,2023,13824.0,Interpolado
+2704807,Maribondo,2024,13968.0,Estimativa IBGE
+2704807,Maribondo,2025,13970.0,Estimativa IBGE
+2704906,Mar Vermelho,2013,3698.0,Estimativa IBGE
+2704906,Mar Vermelho,2014,3674.0,Estimativa IBGE
+2704906,Mar Vermelho,2015,3622.0,Estimativa IBGE
+2704906,Mar Vermelho,2016,3600.0,Estimativa IBGE
+2704906,Mar Vermelho,2017,3579.0,Estimativa IBGE
+2704906,Mar Vermelho,2018,3534.0,Estimativa IBGE
+2704906,Mar Vermelho,2019,3514.0,Estimativa IBGE
+2704906,Mar Vermelho,2020,3494.0,Estimativa IBGE
+2704906,Mar Vermelho,2021,3474.0,Estimativa IBGE
+2704906,Mar Vermelho,2022,3155.0,Censo 2022
+2704906,Mar Vermelho,2023,3184.0,Interpolado
+2704906,Mar Vermelho,2024,3212.0,Estimativa IBGE
+2704906,Mar Vermelho,2025,3208.0,Estimativa IBGE
+2705002,Mata Grande,2013,25349.0,Estimativa IBGE
+2705002,Mata Grande,2014,25659.0,Estimativa IBGE
+2705002,Mata Grande,2015,25590.0,Estimativa IBGE
+2705002,Mata Grande,2016,25589.0,Estimativa IBGE
+2705002,Mata Grande,2017,25589.0,Estimativa IBGE
+2705002,Mata Grande,2018,25226.0,Estimativa IBGE
+2705002,Mata Grande,2019,25216.0,Estimativa IBGE
+2705002,Mata Grande,2020,25207.0,Estimativa IBGE
+2705002,Mata Grande,2021,25200.0,Estimativa IBGE
+2705002,Mata Grande,2022,21844.0,Censo 2022
+2705002,Mata Grande,2023,21996.0,Interpolado
+2705002,Mata Grande,2024,22147.0,Estimativa IBGE
+2705002,Mata Grande,2025,22126.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2013,25005.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2014,25006.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2015,25008.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2016,25010.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2017,25012.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2018,24649.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2019,24642.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2020,24634.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2021,24627.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2022,23857.0,Censo 2022
+2705101,Matriz de Camaragibe,2023,24094.0,Interpolado
+2705101,Matriz de Camaragibe,2024,24330.0,Estimativa IBGE
+2705101,Matriz de Camaragibe,2025,24331.0,Estimativa IBGE
+2705200,Messias,2013,17110.0,Estimativa IBGE
+2705200,Messias,2014,17350.0,Estimativa IBGE
+2705200,Messias,2015,17576.0,Estimativa IBGE
+2705200,Messias,2016,17789.0,Estimativa IBGE
+2705200,Messias,2017,17988.0,Estimativa IBGE
+2705200,Messias,2018,17676.0,Estimativa IBGE
+2705200,Messias,2019,17856.0,Estimativa IBGE
+2705200,Messias,2020,18031.0,Estimativa IBGE
+2705200,Messias,2021,18201.0,Estimativa IBGE
+2705200,Messias,2022,15405.0,Censo 2022
+2705200,Messias,2023,15556.0,Interpolado
+2705200,Messias,2024,15707.0,Estimativa IBGE
+2705200,Messias,2025,15706.0,Estimativa IBGE
+2705309,Minador do Negrão,2013,5439.0,Estimativa IBGE
+2705309,Minador do Negrão,2014,5432.0,Estimativa IBGE
+2705309,Minador do Negrão,2015,5425.0,Estimativa IBGE
+2705309,Minador do Negrão,2016,5419.0,Estimativa IBGE
+2705309,Minador do Negrão,2017,5413.0,Estimativa IBGE
+2705309,Minador do Negrão,2018,5337.0,Estimativa IBGE
+2705309,Minador do Negrão,2019,5329.0,Estimativa IBGE
+2705309,Minador do Negrão,2020,5322.0,Estimativa IBGE
+2705309,Minador do Negrão,2021,5315.0,Estimativa IBGE
+2705309,Minador do Negrão,2022,4845.0,Censo 2022
+2705309,Minador do Negrão,2023,4892.0,Interpolado
+2705309,Minador do Negrão,2024,4938.0,Estimativa IBGE
+2705309,Minador do Negrão,2025,4935.0,Estimativa IBGE
+2705408,Monteirópolis,2013,7219.0,Estimativa IBGE
+2705408,Monteirópolis,2014,7230.0,Estimativa IBGE
+2705408,Monteirópolis,2015,7241.0,Estimativa IBGE
+2705408,Monteirópolis,2016,7251.0,Estimativa IBGE
+2705408,Monteirópolis,2017,7260.0,Estimativa IBGE
+2705408,Monteirópolis,2018,7153.0,Estimativa IBGE
+2705408,Monteirópolis,2019,7159.0,Estimativa IBGE
+2705408,Monteirópolis,2020,7165.0,Estimativa IBGE
+2705408,Monteirópolis,2021,7171.0,Estimativa IBGE
+2705408,Monteirópolis,2022,7184.0,Censo 2022
+2705408,Monteirópolis,2023,7262.0,Interpolado
+2705408,Monteirópolis,2024,7341.0,Estimativa IBGE
+2705408,Monteirópolis,2025,7344.0,Estimativa IBGE
+2705507,Murici,2013,28158.0,Estimativa IBGE
+2705507,Murici,2014,28201.0,Estimativa IBGE
+2705507,Murici,2015,28335.0,Estimativa IBGE
+2705507,Murici,2016,28462.0,Estimativa IBGE
+2705507,Murici,2017,28579.0,Estimativa IBGE
+2705507,Murici,2018,28137.0,Estimativa IBGE
+2705507,Murici,2019,28236.0,Estimativa IBGE
+2705507,Murici,2020,28333.0,Estimativa IBGE
+2705507,Murici,2021,28428.0,Estimativa IBGE
+2705507,Murici,2022,25187.0,Censo 2022
+2705507,Murici,2023,25560.0,Interpolado
+2705507,Murici,2024,25933.0,Estimativa IBGE
+2705507,Murici,2025,25926.0,Estimativa IBGE
+2705606,Novo Lino,2013,12479.0,Estimativa IBGE
+2705606,Novo Lino,2014,12583.0,Estimativa IBGE
+2705606,Novo Lino,2015,12643.0,Estimativa IBGE
+2705606,Novo Lino,2016,12735.0,Estimativa IBGE
+2705606,Novo Lino,2017,12821.0,Estimativa IBGE
+2705606,Novo Lino,2018,12615.0,Estimativa IBGE
+2705606,Novo Lino,2019,12690.0,Estimativa IBGE
+2705606,Novo Lino,2020,12764.0,Estimativa IBGE
+2705606,Novo Lino,2021,12837.0,Estimativa IBGE
+2705606,Novo Lino,2022,10020.0,Censo 2022
+2705606,Novo Lino,2023,10159.0,Interpolado
+2705606,Novo Lino,2024,10298.0,Estimativa IBGE
+2705606,Novo Lino,2025,10285.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2013,21499.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2014,21572.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2015,21641.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2016,21706.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2017,21767.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2018,21437.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2019,21688.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2020,21738.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2021,21690.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2022,20695.0,Censo 2022
+2705705,Olho d'Água das Flores,2023,20914.0,Interpolado
+2705705,Olho d'Água das Flores,2024,21132.0,Estimativa IBGE
+2705705,Olho d'Água das Flores,2025,21135.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2013,9114.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2014,9209.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2015,9298.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2016,9381.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2017,9459.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2018,9303.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2019,9373.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2020,9441.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2021,9507.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2022,8349.0,Censo 2022
+2705804,Olho d'Água do Casado,2023,8436.0,Interpolado
+2705804,Olho d'Água do Casado,2024,8522.0,Estimativa IBGE
+2705804,Olho d'Água do Casado,2025,8522.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2013,5159.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2014,5169.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2015,5178.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2016,5187.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2017,5195.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2018,5117.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2019,5123.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2020,5128.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2021,5133.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2022,4330.0,Censo 2022
+2705903,Olho d'Água Grande,2023,4357.0,Interpolado
+2705903,Olho d'Água Grande,2024,4384.0,Estimativa IBGE
+2705903,Olho d'Água Grande,2025,4381.0,Estimativa IBGE
+2706000,Olivença,2013,11594.0,Estimativa IBGE
+2706000,Olivença,2014,11643.0,Estimativa IBGE
+2706000,Olivença,2015,11688.0,Estimativa IBGE
+2706000,Olivença,2016,11731.0,Estimativa IBGE
+2706000,Olivença,2017,11772.0,Estimativa IBGE
+2706000,Olivença,2018,11591.0,Estimativa IBGE
+2706000,Olivença,2019,11624.0,Estimativa IBGE
+2706000,Olivença,2020,11657.0,Estimativa IBGE
+2706000,Olivença,2021,11681.0,Estimativa IBGE
+2706000,Olivença,2022,10812.0,Censo 2022
+2706000,Olivença,2023,10930.0,Interpolado
+2706000,Olivença,2024,11048.0,Estimativa IBGE
+2706000,Olivença,2025,11047.0,Estimativa IBGE
+2706109,Ouro Branco,2013,11409.0,Estimativa IBGE
+2706109,Ouro Branco,2014,11484.0,Estimativa IBGE
+2706109,Ouro Branco,2015,11537.0,Estimativa IBGE
+2706109,Ouro Branco,2016,11589.0,Estimativa IBGE
+2706109,Ouro Branco,2017,11635.0,Estimativa IBGE
+2706109,Ouro Branco,2018,11456.0,Estimativa IBGE
+2706109,Ouro Branco,2019,11496.0,Estimativa IBGE
+2706109,Ouro Branco,2020,11535.0,Estimativa IBGE
+2706109,Ouro Branco,2021,11573.0,Estimativa IBGE
+2706109,Ouro Branco,2022,11446.0,Censo 2022
+2706109,Ouro Branco,2023,11572.0,Interpolado
+2706109,Ouro Branco,2024,11699.0,Estimativa IBGE
+2706109,Ouro Branco,2025,11706.0,Estimativa IBGE
+2706208,Palestina,2013,4934.0,Estimativa IBGE
+2706208,Palestina,2014,4970.0,Estimativa IBGE
+2706208,Palestina,2015,5004.0,Estimativa IBGE
+2706208,Palestina,2016,5036.0,Estimativa IBGE
+2706208,Palestina,2017,5066.0,Estimativa IBGE
+2706208,Palestina,2018,4985.0,Estimativa IBGE
+2706208,Palestina,2019,5011.0,Estimativa IBGE
+2706208,Palestina,2020,5037.0,Estimativa IBGE
+2706208,Palestina,2021,5061.0,Estimativa IBGE
+2706208,Palestina,2022,4325.0,Censo 2022
+2706208,Palestina,2023,4368.0,Interpolado
+2706208,Palestina,2024,4410.0,Estimativa IBGE
+2706208,Palestina,2025,4408.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2013,73532.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2014,73725.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2015,73878.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2016,74049.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2017,74208.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2018,73096.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2019,73218.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2020,73337.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2021,73452.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2022,71574.0,Censo 2022
+2706307,Palmeira dos Índios,2023,72585.0,Interpolado
+2706307,Palmeira dos Índios,2024,73596.0,Estimativa IBGE
+2706307,Palmeira dos Índios,2025,73621.0,Estimativa IBGE
+2706406,Pão de Açúcar,2013,24975.0,Estimativa IBGE
+2706406,Pão de Açúcar,2014,24924.0,Estimativa IBGE
+2706406,Pão de Açúcar,2015,24878.0,Estimativa IBGE
+2706406,Pão de Açúcar,2016,24834.0,Estimativa IBGE
+2706406,Pão de Açúcar,2017,24792.0,Estimativa IBGE
+2706406,Pão de Açúcar,2018,24446.0,Estimativa IBGE
+2706406,Pão de Açúcar,2019,24399.0,Estimativa IBGE
+2706406,Pão de Açúcar,2020,24351.0,Estimativa IBGE
+2706406,Pão de Açúcar,2021,24307.0,Estimativa IBGE
+2706406,Pão de Açúcar,2022,23823.0,Censo 2022
+2706406,Pão de Açúcar,2023,24057.0,Interpolado
+2706406,Pão de Açúcar,2024,24291.0,Estimativa IBGE
+2706406,Pão de Açúcar,2025,24291.0,Estimativa IBGE
+2706422,Pariconha,2013,10674.0,Estimativa IBGE
+2706422,Pariconha,2014,10688.0,Estimativa IBGE
+2706422,Pariconha,2015,10601.0,Estimativa IBGE
+2706422,Pariconha,2016,10674.0,Estimativa IBGE
+2706422,Pariconha,2017,10684.0,Estimativa IBGE
+2706422,Pariconha,2018,10527.0,Estimativa IBGE
+2706422,Pariconha,2019,10533.0,Estimativa IBGE
+2706422,Pariconha,2020,10539.0,Estimativa IBGE
+2706422,Pariconha,2021,10546.0,Estimativa IBGE
+2706422,Pariconha,2022,10573.0,Censo 2022
+2706422,Pariconha,2023,10688.0,Interpolado
+2706422,Pariconha,2024,10803.0,Estimativa IBGE
+2706422,Pariconha,2025,10807.0,Estimativa IBGE
+2706448,Paripueira,2013,12474.0,Estimativa IBGE
+2706448,Paripueira,2014,12687.0,Estimativa IBGE
+2706448,Paripueira,2015,12887.0,Estimativa IBGE
+2706448,Paripueira,2016,13076.0,Estimativa IBGE
+2706448,Paripueira,2017,13252.0,Estimativa IBGE
+2706448,Paripueira,2018,13016.0,Estimativa IBGE
+2706448,Paripueira,2019,13176.0,Estimativa IBGE
+2706448,Paripueira,2020,13332.0,Estimativa IBGE
+2706448,Paripueira,2021,13484.0,Estimativa IBGE
+2706448,Paripueira,2022,13835.0,Censo 2022
+2706448,Paripueira,2023,14006.0,Interpolado
+2706448,Paripueira,2024,14176.0,Estimativa IBGE
+2706448,Paripueira,2025,14199.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2013,15372.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2014,15396.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2015,15419.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2016,15441.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2017,15461.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2018,15232.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2019,15245.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2020,15258.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2021,15270.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2022,13804.0,Censo 2022
+2706505,Passo de Camaragibe,2023,13940.0,Interpolado
+2706505,Passo de Camaragibe,2024,14076.0,Estimativa IBGE
+2706505,Passo de Camaragibe,2025,14070.0,Estimativa IBGE
+2706604,Paulo Jacinto,2013,7685.0,Estimativa IBGE
+2706604,Paulo Jacinto,2014,7683.0,Estimativa IBGE
+2706604,Paulo Jacinto,2015,7682.0,Estimativa IBGE
+2706604,Paulo Jacinto,2016,7680.0,Estimativa IBGE
+2706604,Paulo Jacinto,2017,7679.0,Estimativa IBGE
+2706604,Paulo Jacinto,2018,7568.0,Estimativa IBGE
+2706604,Paulo Jacinto,2019,7564.0,Estimativa IBGE
+2706604,Paulo Jacinto,2020,7560.0,Estimativa IBGE
+2706604,Paulo Jacinto,2021,7556.0,Estimativa IBGE
+2706604,Paulo Jacinto,2022,6576.0,Censo 2022
+2706604,Paulo Jacinto,2023,6636.0,Interpolado
+2706604,Paulo Jacinto,2024,6697.0,Estimativa IBGE
+2706604,Paulo Jacinto,2025,6691.0,Estimativa IBGE
+2706703,Penedo,2013,63595.0,Estimativa IBGE
+2706703,Penedo,2014,63842.0,Estimativa IBGE
+2706703,Penedo,2015,64074.0,Estimativa IBGE
+2706703,Penedo,2016,64292.0,Estimativa IBGE
+2706703,Penedo,2017,64497.0,Estimativa IBGE
+2706703,Penedo,2018,63516.0,Estimativa IBGE
+2706703,Penedo,2019,63683.0,Estimativa IBGE
+2706703,Penedo,2020,63846.0,Estimativa IBGE
+2706703,Penedo,2021,64005.0,Estimativa IBGE
+2706703,Penedo,2022,58650.0,Censo 2022
+2706703,Penedo,2023,59420.0,Interpolado
+2706703,Penedo,2024,60189.0,Estimativa IBGE
+2706703,Penedo,2025,60185.0,Estimativa IBGE
+2706802,Piaçabuçu,2013,17941.0,Estimativa IBGE
+2706802,Piaçabuçu,2014,17977.0,Estimativa IBGE
+2706802,Piaçabuçu,2015,18011.0,Estimativa IBGE
+2706802,Piaçabuçu,2016,18043.0,Estimativa IBGE
+2706802,Piaçabuçu,2017,18074.0,Estimativa IBGE
+2706802,Piaçabuçu,2018,17805.0,Estimativa IBGE
+2706802,Piaçabuçu,2019,17827.0,Estimativa IBGE
+2706802,Piaçabuçu,2020,17848.0,Estimativa IBGE
+2706802,Piaçabuçu,2021,17868.0,Estimativa IBGE
+2706802,Piaçabuçu,2022,15908.0,Censo 2022
+2706802,Piaçabuçu,2023,16054.0,Interpolado
+2706802,Piaçabuçu,2024,16201.0,Estimativa IBGE
+2706802,Piaçabuçu,2025,16192.0,Estimativa IBGE
+2706901,Pilar,2013,35003.0,Estimativa IBGE
+2706901,Pilar,2014,35153.0,Estimativa IBGE
+2706901,Pilar,2015,35295.0,Estimativa IBGE
+2706901,Pilar,2016,35428.0,Estimativa IBGE
+2706901,Pilar,2017,35552.0,Estimativa IBGE
+2706901,Pilar,2018,35008.0,Estimativa IBGE
+2706901,Pilar,2019,35111.0,Estimativa IBGE
+2706901,Pilar,2020,35212.0,Estimativa IBGE
+2706901,Pilar,2021,35310.0,Estimativa IBGE
+2706901,Pilar,2022,35370.0,Censo 2022
+2706901,Pilar,2023,35934.0,Interpolado
+2706901,Pilar,2024,36499.0,Estimativa IBGE
+2706901,Pilar,2025,36525.0,Estimativa IBGE
+2707008,Pindoba,2013,2961.0,Estimativa IBGE
+2707008,Pindoba,2014,2958.0,Estimativa IBGE
+2707008,Pindoba,2015,2956.0,Estimativa IBGE
+2707008,Pindoba,2016,2954.0,Estimativa IBGE
+2707008,Pindoba,2017,2953.0,Estimativa IBGE
+2707008,Pindoba,2018,2911.0,Estimativa IBGE
+2707008,Pindoba,2019,2908.0,Estimativa IBGE
+2707008,Pindoba,2020,2905.0,Estimativa IBGE
+2707008,Pindoba,2021,2903.0,Estimativa IBGE
+2707008,Pindoba,2022,2731.0,Censo 2022
+2707008,Pindoba,2023,2758.0,Interpolado
+2707008,Pindoba,2024,2786.0,Estimativa IBGE
+2707008,Pindoba,2025,2786.0,Estimativa IBGE
+2707107,Piranhas,2013,24556.0,Estimativa IBGE
+2707107,Piranhas,2014,24759.0,Estimativa IBGE
+2707107,Piranhas,2015,24950.0,Estimativa IBGE
+2707107,Piranhas,2016,25130.0,Estimativa IBGE
+2707107,Piranhas,2017,25298.0,Estimativa IBGE
+2707107,Piranhas,2018,24891.0,Estimativa IBGE
+2707107,Piranhas,2019,25039.0,Estimativa IBGE
+2707107,Piranhas,2020,25183.0,Estimativa IBGE
+2707107,Piranhas,2021,25324.0,Estimativa IBGE
+2707107,Piranhas,2022,22609.0,Censo 2022
+2707107,Piranhas,2023,22831.0,Interpolado
+2707107,Piranhas,2024,23053.0,Estimativa IBGE
+2707107,Piranhas,2025,23053.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2013,14401.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2014,14449.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2015,14493.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2016,14535.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2017,14575.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2018,14354.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2019,14386.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2020,14418.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2021,14447.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2022,12518.0,Censo 2022
+2707206,Poço das Trincheiras,2023,12746.0,Interpolado
+2707206,Poço das Trincheiras,2024,12974.0,Estimativa IBGE
+2707206,Poço das Trincheiras,2025,12965.0,Estimativa IBGE
+2707305,Porto Calvo,2013,27047.0,Estimativa IBGE
+2707305,Porto Calvo,2014,27171.0,Estimativa IBGE
+2707305,Porto Calvo,2015,27288.0,Estimativa IBGE
+2707305,Porto Calvo,2016,27398.0,Estimativa IBGE
+2707305,Porto Calvo,2017,27501.0,Estimativa IBGE
+2707305,Porto Calvo,2018,27079.0,Estimativa IBGE
+2707305,Porto Calvo,2019,27165.0,Estimativa IBGE
+2707305,Porto Calvo,2020,27249.0,Estimativa IBGE
+2707305,Porto Calvo,2021,27331.0,Estimativa IBGE
+2707305,Porto Calvo,2022,24071.0,Censo 2022
+2707305,Porto Calvo,2023,24296.0,Interpolado
+2707305,Porto Calvo,2024,24520.0,Estimativa IBGE
+2707305,Porto Calvo,2025,24509.0,Estimativa IBGE
+2707404,Porto de Pedras,2013,8362.0,Estimativa IBGE
+2707404,Porto de Pedras,2014,8253.0,Estimativa IBGE
+2707404,Porto de Pedras,2015,8151.0,Estimativa IBGE
+2707404,Porto de Pedras,2016,8055.0,Estimativa IBGE
+2707404,Porto de Pedras,2017,7965.0,Estimativa IBGE
+2707404,Porto de Pedras,2018,7873.0,Estimativa IBGE
+2707404,Porto de Pedras,2019,7786.0,Estimativa IBGE
+2707404,Porto de Pedras,2020,7701.0,Estimativa IBGE
+2707404,Porto de Pedras,2021,7618.0,Estimativa IBGE
+2707404,Porto de Pedras,2022,9295.0,Censo 2022
+2707404,Porto de Pedras,2023,9402.0,Interpolado
+2707404,Porto de Pedras,2024,9508.0,Estimativa IBGE
+2707404,Porto de Pedras,2025,9517.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2013,20066.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2014,20138.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2015,20205.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2016,20268.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2017,20327.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2018,20018.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2019,20066.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2020,20112.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2021,20158.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2022,20082.0,Censo 2022
+2707503,Porto Real do Colégio,2023,20172.0,Interpolado
+2707503,Porto Real do Colégio,2024,20262.0,Estimativa IBGE
+2707503,Porto Real do Colégio,2025,20273.0,Estimativa IBGE
+2707602,Quebrangulo,2013,11700.0,Estimativa IBGE
+2707602,Quebrangulo,2014,11644.0,Estimativa IBGE
+2707602,Quebrangulo,2015,11592.0,Estimativa IBGE
+2707602,Quebrangulo,2016,11542.0,Estimativa IBGE
+2707602,Quebrangulo,2017,11496.0,Estimativa IBGE
+2707602,Quebrangulo,2018,11342.0,Estimativa IBGE
+2707602,Quebrangulo,2019,11294.0,Estimativa IBGE
+2707602,Quebrangulo,2020,11248.0,Estimativa IBGE
+2707602,Quebrangulo,2021,11202.0,Estimativa IBGE
+2707602,Quebrangulo,2022,11080.0,Censo 2022
+2707602,Quebrangulo,2023,11192.0,Interpolado
+2707602,Quebrangulo,2024,11305.0,Estimativa IBGE
+2707602,Quebrangulo,2025,11303.0,Estimativa IBGE
+2707701,Rio Largo,2013,71834.0,Estimativa IBGE
+2707701,Rio Largo,2014,75267.0,Estimativa IBGE
+2707701,Rio Largo,2015,75645.0,Estimativa IBGE
+2707701,Rio Largo,2016,75688.0,Estimativa IBGE
+2707701,Rio Largo,2017,76019.0,Estimativa IBGE
+2707701,Rio Largo,2018,74838.0,Estimativa IBGE
+2707701,Rio Largo,2019,75120.0,Estimativa IBGE
+2707701,Rio Largo,2020,75394.0,Estimativa IBGE
+2707701,Rio Largo,2021,75662.0,Estimativa IBGE
+2707701,Rio Largo,2022,93927.0,Censo 2022
+2707701,Rio Largo,2023,95681.0,Interpolado
+2707701,Rio Largo,2024,97435.0,Estimativa IBGE
+2707701,Rio Largo,2025,97658.0,Estimativa IBGE
+2707800,Roteiro,2013,6836.0,Estimativa IBGE
+2707800,Roteiro,2014,6819.0,Estimativa IBGE
+2707800,Roteiro,2015,6803.0,Estimativa IBGE
+2707800,Roteiro,2016,6788.0,Estimativa IBGE
+2707800,Roteiro,2017,6774.0,Estimativa IBGE
+2707800,Roteiro,2018,6680.0,Estimativa IBGE
+2707800,Roteiro,2019,6664.0,Estimativa IBGE
+2707800,Roteiro,2020,6649.0,Estimativa IBGE
+2707800,Roteiro,2021,6634.0,Estimativa IBGE
+2707800,Roteiro,2022,6474.0,Censo 2022
+2707800,Roteiro,2023,6540.0,Interpolado
+2707800,Roteiro,2024,6607.0,Estimativa IBGE
+2707800,Roteiro,2025,6606.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2013,7257.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2014,7292.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2015,7325.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2016,7357.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2017,7386.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2018,7272.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2019,7296.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2020,7320.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2021,7344.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2022,6919.0,Censo 2022
+2707909,Santa Luzia do Norte,2023,6992.0,Interpolado
+2707909,Santa Luzia do Norte,2024,7065.0,Estimativa IBGE
+2707909,Santa Luzia do Norte,2025,7066.0,Estimativa IBGE
+2708006,Santana do Ipanema,2013,47352.0,Estimativa IBGE
+2708006,Santana do Ipanema,2014,47593.0,Estimativa IBGE
+2708006,Santana do Ipanema,2015,47820.0,Estimativa IBGE
+2708006,Santana do Ipanema,2016,48033.0,Estimativa IBGE
+2708006,Santana do Ipanema,2017,48232.0,Estimativa IBGE
+2708006,Santana do Ipanema,2018,47486.0,Estimativa IBGE
+2708006,Santana do Ipanema,2019,47654.0,Estimativa IBGE
+2708006,Santana do Ipanema,2020,47819.0,Estimativa IBGE
+2708006,Santana do Ipanema,2021,47910.0,Estimativa IBGE
+2708006,Santana do Ipanema,2022,46220.0,Censo 2022
+2708006,Santana do Ipanema,2023,46808.0,Interpolado
+2708006,Santana do Ipanema,2024,47397.0,Estimativa IBGE
+2708006,Santana do Ipanema,2025,47418.0,Estimativa IBGE
+2708105,Santana do Mundaú,2013,11134.0,Estimativa IBGE
+2708105,Santana do Mundaú,2014,11070.0,Estimativa IBGE
+2708105,Santana do Mundaú,2015,11009.0,Estimativa IBGE
+2708105,Santana do Mundaú,2016,10952.0,Estimativa IBGE
+2708105,Santana do Mundaú,2017,10899.0,Estimativa IBGE
+2708105,Santana do Mundaú,2018,10755.0,Estimativa IBGE
+2708105,Santana do Mundaú,2019,10740.0,Estimativa IBGE
+2708105,Santana do Mundaú,2020,10687.0,Estimativa IBGE
+2708105,Santana do Mundaú,2021,10637.0,Estimativa IBGE
+2708105,Santana do Mundaú,2022,11323.0,Censo 2022
+2708105,Santana do Mundaú,2023,11446.0,Interpolado
+2708105,Santana do Mundaú,2024,11568.0,Estimativa IBGE
+2708105,Santana do Mundaú,2025,11572.0,Estimativa IBGE
+2708204,São Brás,2013,7006.0,Estimativa IBGE
+2708204,São Brás,2014,7020.0,Estimativa IBGE
+2708204,São Brás,2015,7034.0,Estimativa IBGE
+2708204,São Brás,2016,7046.0,Estimativa IBGE
+2708204,São Brás,2017,7058.0,Estimativa IBGE
+2708204,São Brás,2018,6953.0,Estimativa IBGE
+2708204,São Brás,2019,6961.0,Estimativa IBGE
+2708204,São Brás,2020,6969.0,Estimativa IBGE
+2708204,São Brás,2021,6977.0,Estimativa IBGE
+2708204,São Brás,2022,6555.0,Censo 2022
+2708204,São Brás,2023,6556.0,Interpolado
+2708204,São Brás,2024,6557.0,Estimativa IBGE
+2708204,São Brás,2025,6557.0,Estimativa IBGE
+2708303,São José da Laje,2013,23847.0,Estimativa IBGE
+2708303,São José da Laje,2014,23950.0,Estimativa IBGE
+2708303,São José da Laje,2015,24048.0,Estimativa IBGE
+2708303,São José da Laje,2016,24140.0,Estimativa IBGE
+2708303,São José da Laje,2017,24226.0,Estimativa IBGE
+2708303,São José da Laje,2018,23855.0,Estimativa IBGE
+2708303,São José da Laje,2019,23927.0,Estimativa IBGE
+2708303,São José da Laje,2020,23996.0,Estimativa IBGE
+2708303,São José da Laje,2021,24064.0,Estimativa IBGE
+2708303,São José da Laje,2022,20813.0,Censo 2022
+2708303,São José da Laje,2023,21003.0,Interpolado
+2708303,São José da Laje,2024,21193.0,Estimativa IBGE
+2708303,São José da Laje,2025,21180.0,Estimativa IBGE
+2708402,São José da Tapera,2013,31867.0,Estimativa IBGE
+2708402,São José da Tapera,2014,32075.0,Estimativa IBGE
+2708402,São José da Tapera,2015,32271.0,Estimativa IBGE
+2708402,São José da Tapera,2016,32455.0,Estimativa IBGE
+2708402,São José da Tapera,2017,32626.0,Estimativa IBGE
+2708402,São José da Tapera,2018,32111.0,Estimativa IBGE
+2708402,São José da Tapera,2019,32260.0,Estimativa IBGE
+2708402,São José da Tapera,2020,32405.0,Estimativa IBGE
+2708402,São José da Tapera,2021,32462.0,Estimativa IBGE
+2708402,São José da Tapera,2022,30604.0,Censo 2022
+2708402,São José da Tapera,2023,31080.0,Interpolado
+2708402,São José da Tapera,2024,31557.0,Estimativa IBGE
+2708402,São José da Tapera,2025,31569.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2013,34239.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2014,34436.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2015,34623.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2016,34798.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2017,34961.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2018,34415.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2019,34555.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2020,34692.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2021,34825.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2022,30873.0,Censo 2022
+2708501,São Luís do Quitunde,2023,31332.0,Interpolado
+2708501,São Luís do Quitunde,2024,31792.0,Estimativa IBGE
+2708501,São Luís do Quitunde,2025,31785.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2013,59077.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2014,59830.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2015,60539.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2016,61204.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2017,61827.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2018,60775.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2019,61251.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2020,61797.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2021,62328.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2022,51990.0,Censo 2022
+2708600,São Miguel dos Campos,2023,52690.0,Interpolado
+2708600,São Miguel dos Campos,2024,53391.0,Estimativa IBGE
+2708600,São Miguel dos Campos,2025,53380.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2013,7709.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2014,7795.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2015,7876.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2016,7951.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2017,8022.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2018,7888.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2019,7951.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2020,8013.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2021,8073.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2022,8482.0,Censo 2022
+2708709,São Miguel dos Milagres,2023,8584.0,Interpolado
+2708709,São Miguel dos Milagres,2024,8687.0,Estimativa IBGE
+2708709,São Miguel dos Milagres,2025,8700.0,Estimativa IBGE
+2708808,São Sebastião,2013,33826.0,Estimativa IBGE
+2708808,São Sebastião,2014,34024.0,Estimativa IBGE
+2708808,São Sebastião,2015,34211.0,Estimativa IBGE
+2708808,São Sebastião,2016,34387.0,Estimativa IBGE
+2708808,São Sebastião,2017,34551.0,Estimativa IBGE
+2708808,São Sebastião,2018,34011.0,Estimativa IBGE
+2708808,São Sebastião,2019,34152.0,Estimativa IBGE
+2708808,São Sebastião,2020,34290.0,Estimativa IBGE
+2708808,São Sebastião,2021,34424.0,Estimativa IBGE
+2708808,São Sebastião,2022,31786.0,Censo 2022
+2708808,São Sebastião,2023,32244.0,Interpolado
+2708808,São Sebastião,2024,32701.0,Estimativa IBGE
+2708808,São Sebastião,2025,32707.0,Estimativa IBGE
+2708907,Satuba,2013,15737.0,Estimativa IBGE
+2708907,Satuba,2014,13241.0,Estimativa IBGE
+2708907,Satuba,2015,13381.0,Estimativa IBGE
+2708907,Satuba,2016,13824.0,Estimativa IBGE
+2708907,Satuba,2017,13949.0,Estimativa IBGE
+2708907,Satuba,2018,13716.0,Estimativa IBGE
+2708907,Satuba,2019,13828.0,Estimativa IBGE
+2708907,Satuba,2020,13936.0,Estimativa IBGE
+2708907,Satuba,2021,14042.0,Estimativa IBGE
+2708907,Satuba,2022,24278.0,Censo 2022
+2708907,Satuba,2023,24639.0,Interpolado
+2708907,Satuba,2024,25000.0,Estimativa IBGE
+2708907,Satuba,2025,25105.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2013,13765.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2014,13839.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2015,13909.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2016,13974.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2017,14036.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2018,13818.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2019,13870.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2020,13921.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2021,13893.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2022,12303.0,Censo 2022
+2708956,Senador Rui Palmeira,2023,12426.0,Interpolado
+2708956,Senador Rui Palmeira,2024,12549.0,Estimativa IBGE
+2708956,Senador Rui Palmeira,2025,12545.0,Estimativa IBGE
+2709004,Tanque d'Arca,2013,6374.0,Estimativa IBGE
+2709004,Tanque d'Arca,2014,6346.0,Estimativa IBGE
+2709004,Tanque d'Arca,2015,6319.0,Estimativa IBGE
+2709004,Tanque d'Arca,2016,6293.0,Estimativa IBGE
+2709004,Tanque d'Arca,2017,6270.0,Estimativa IBGE
+2709004,Tanque d'Arca,2018,6187.0,Estimativa IBGE
+2709004,Tanque d'Arca,2019,6162.0,Estimativa IBGE
+2709004,Tanque d'Arca,2020,6138.0,Estimativa IBGE
+2709004,Tanque d'Arca,2021,6115.0,Estimativa IBGE
+2709004,Tanque d'Arca,2022,5796.0,Censo 2022
+2709004,Tanque d'Arca,2023,5852.0,Interpolado
+2709004,Tanque d'Arca,2024,5909.0,Estimativa IBGE
+2709004,Tanque d'Arca,2025,5906.0,Estimativa IBGE
+2709103,Taquarana,2013,19725.0,Estimativa IBGE
+2709103,Taquarana,2014,19856.0,Estimativa IBGE
+2709103,Taquarana,2015,19980.0,Estimativa IBGE
+2709103,Taquarana,2016,20097.0,Estimativa IBGE
+2709103,Taquarana,2017,20205.0,Estimativa IBGE
+2709103,Taquarana,2018,19886.0,Estimativa IBGE
+2709103,Taquarana,2019,19980.0,Estimativa IBGE
+2709103,Taquarana,2020,20072.0,Estimativa IBGE
+2709103,Taquarana,2021,20162.0,Estimativa IBGE
+2709103,Taquarana,2022,19032.0,Censo 2022
+2709103,Taquarana,2023,19227.0,Interpolado
+2709103,Taquarana,2024,19422.0,Estimativa IBGE
+2709103,Taquarana,2025,19428.0,Estimativa IBGE
+2709152,Teotônio Vilela,2013,43605.0,Estimativa IBGE
+2709152,Teotônio Vilela,2014,43895.0,Estimativa IBGE
+2709152,Teotônio Vilela,2015,44169.0,Estimativa IBGE
+2709152,Teotônio Vilela,2016,44426.0,Estimativa IBGE
+2709152,Teotônio Vilela,2017,44666.0,Estimativa IBGE
+2709152,Teotônio Vilela,2018,43960.0,Estimativa IBGE
+2709152,Teotônio Vilela,2019,44169.0,Estimativa IBGE
+2709152,Teotônio Vilela,2020,44372.0,Estimativa IBGE
+2709152,Teotônio Vilela,2021,44570.0,Estimativa IBGE
+2709152,Teotônio Vilela,2022,38053.0,Censo 2022
+2709152,Teotônio Vilela,2023,38607.0,Interpolado
+2709152,Teotônio Vilela,2024,39161.0,Estimativa IBGE
+2709152,Teotônio Vilela,2025,39143.0,Estimativa IBGE
+2709202,Traipu,2013,27488.0,Estimativa IBGE
+2709202,Traipu,2014,27648.0,Estimativa IBGE
+2709202,Traipu,2015,27798.0,Estimativa IBGE
+2709202,Traipu,2016,27938.0,Estimativa IBGE
+2709202,Traipu,2017,28070.0,Estimativa IBGE
+2709202,Traipu,2018,27632.0,Estimativa IBGE
+2709202,Traipu,2019,27715.0,Estimativa IBGE
+2709202,Traipu,2020,27826.0,Estimativa IBGE
+2709202,Traipu,2021,27934.0,Estimativa IBGE
+2709202,Traipu,2022,23565.0,Censo 2022
+2709202,Traipu,2023,23844.0,Interpolado
+2709202,Traipu,2024,24124.0,Estimativa IBGE
+2709202,Traipu,2025,24106.0,Estimativa IBGE
+2709301,União dos Palmares,2013,65495.0,Estimativa IBGE
+2709301,União dos Palmares,2014,65764.0,Estimativa IBGE
+2709301,União dos Palmares,2015,66017.0,Estimativa IBGE
+2709301,União dos Palmares,2016,66255.0,Estimativa IBGE
+2709301,União dos Palmares,2017,66477.0,Estimativa IBGE
+2709301,União dos Palmares,2018,65461.0,Estimativa IBGE
+2709301,União dos Palmares,2019,65611.0,Estimativa IBGE
+2709301,União dos Palmares,2020,65790.0,Estimativa IBGE
+2709301,União dos Palmares,2021,65963.0,Estimativa IBGE
+2709301,União dos Palmares,2022,59280.0,Censo 2022
+2709301,União dos Palmares,2023,60077.0,Interpolado
+2709301,União dos Palmares,2024,60874.0,Estimativa IBGE
+2709301,União dos Palmares,2025,60860.0,Estimativa IBGE
+2709400,Viçosa,2013,26289.0,Estimativa IBGE
+2709400,Viçosa,2014,26249.0,Estimativa IBGE
+2709400,Viçosa,2015,26212.0,Estimativa IBGE
+2709400,Viçosa,2016,26176.0,Estimativa IBGE
+2709400,Viçosa,2017,26143.0,Estimativa IBGE
+2709400,Viçosa,2018,25773.0,Estimativa IBGE
+2709400,Viçosa,2019,25733.0,Estimativa IBGE
+2709400,Viçosa,2020,25693.0,Estimativa IBGE
+2709400,Viçosa,2021,25655.0,Estimativa IBGE
+2709400,Viçosa,2022,24092.0,Censo 2022
+2709400,Viçosa,2023,24258.0,Interpolado
+2709400,Viçosa,2024,24423.0,Estimativa IBGE
+2709400,Viçosa,2025,24414.0,Estimativa IBGE
