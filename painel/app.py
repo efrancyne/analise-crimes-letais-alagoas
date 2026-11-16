@@ -27,6 +27,7 @@ st.set_page_config(page_title="CVLI em Alagoas", page_icon=str(_FAVICON) if _FAV
 
 CSS = """
 <style>
+[data-testid="stMainBlockContainer"] { padding-top: 3.2rem !important; }
 [data-testid="stSidebar"], [data-testid="stSidebarCollapsedControl"] { display: none; }
 h1 { color: #e11d2e !important; letter-spacing: -0.5px; margin-bottom: 0; }
 .kpi-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin: 0.5rem 0 1.2rem; }
@@ -60,7 +61,7 @@ h2, h3 { letter-spacing: -0.2px; }
   .st-key-frase_off { display: none; }
 }
 .st-key-hero h1 { color: #fff !important; font-size: 2.55rem; line-height: 1.08; padding: 0; margin: 0 0 0.2rem; }
-.st-key-hero_txt { position: absolute; top: 40px; left: 44px; width: min(27%, 390px); z-index: 4; pointer-events: none; gap: 1.1rem !important; }
+.st-key-hero_txt { position: absolute; top: 40px; left: 44px; width: min(28%, 410px); z-index: 4; pointer-events: none; gap: 1.5rem !important; }
 .st-key-hero_txt button { pointer-events: auto; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.55); color: #fff; }
 .st-key-hero_txt button p { color: #fff; }
 .st-key-hero_txt button:hover { background: #e11d2e; border-color: #e11d2e; color: #fff; }
@@ -68,18 +69,32 @@ h2, h3 { letter-spacing: -0.2px; }
 .st-key-hero_menu [data-testid="stPopover"] button { border-color: rgba(255, 255, 255, 0.75); color: #fff; background: rgba(0, 0, 0, 0.25); }
 .st-key-hero_menu [data-testid="stPopover"] button:hover { background: #e11d2e; border-color: #e11d2e; }
 .st-key-hero_kpis { position: absolute; left: 36px; width: calc(100% - 72px); bottom: 32px; z-index: 4; pointer-events: none; }
-.st-key-hero_rank { position: absolute; left: 44px; bottom: 190px; width: min(27%, 390px); z-index: 4; pointer-events: none; }
+.st-key-hero_rank { position: absolute; left: 44px; bottom: 150px; width: min(28%, 410px); z-index: 4; pointer-events: none; }
 .hero-rank .rk { display: grid; grid-template-columns: 1.2fr 1fr auto; align-items: center; gap: 10px; font-size: 0.9rem; padding: 0.24rem 0; }
 .hero-rank .nm { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: rgba(255, 255, 255, 0.9); }
 .hero-rank .bar { height: 7px; border-radius: 4px; background: rgba(255, 255, 255, 0.1); overflow: hidden; }
 .hero-rank .bar i { display: block; height: 100%; border-radius: 4px; background: linear-gradient(90deg, #9c1a2b, #ff4d5e); }
 .hero-rank b { min-width: 36px; text-align: right; }
+@keyframes sobe { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.st-key-hero .hero-tit { font-size: clamp(2.2rem, 9vw, 3rem); line-height: 1.02; font-weight: 800; letter-spacing: -1.2px; margin: 0; padding: 0; color: #fff; }
+.hero-tit .acc { background: linear-gradient(90deg, #ff7a86, #e11d2e); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.hero-tit-bar { width: 76px; height: 5px; border-radius: 3px; background: linear-gradient(90deg, #ff4d5e, #e11d2e); margin: 0.75rem 0 0.1rem; }
+.perfil { background: rgba(255, 255, 255, 0.045); border: 1px solid rgba(255, 255, 255, 0.13); border-radius: 18px; padding: 0.9rem 1.15rem 0.7rem; }
+.p-tit { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: #ffb3ba; margin-bottom: 0.4rem; }
+.p-tit span { font-weight: 500; letter-spacing: 0.04em; text-transform: none; color: rgba(255, 255, 255, 0.7); }
+.p-lin { display: flex; align-items: center; gap: 0.85rem; padding: 0.6rem 0; border-top: 1px solid rgba(255, 255, 255, 0.1); animation: sobe 0.6s ease both; }
+.p-lin:nth-of-type(2) { animation-delay: 0.10s; } .p-lin:nth-of-type(3) { animation-delay: 0.18s; } .p-lin:nth-of-type(4) { animation-delay: 0.26s; }
+.p-lin:nth-of-type(5) { animation-delay: 0.34s; } .p-lin:nth-of-type(6) { animation-delay: 0.42s; }
+.p-lin b { flex: 0 0 3.9rem; font-size: 1.95rem; line-height: 1; font-weight: 800; letter-spacing: -1px; color: #fff; }
+.p-lin span { font-size: 0.9rem; line-height: 1.3; color: rgba(255, 255, 255, 0.86); } .p-lin span em { font-style: normal; font-weight: 700; color: #ff9aa4; }
+.st-key-hero .hero-tit, .hero-tit-bar { animation: sobe 0.6s ease both; }
+.perfil { animation: sobe 0.7s 0.1s ease both; }
 .hero-cap { font-size: 0.86rem; color: rgba(255, 255, 255, 0.68); line-height: 1.4; }
 .hero-frase { font-size: 1.22rem; line-height: 1.5; color: rgba(255, 255, 255, 0.92); }
 .hero-frase b { color: #fff; }
 .hero-frase .bom { color: #4cd68b; font-weight: 700; } .hero-frase .ruim { color: #ff6b7a; font-weight: 700; }
 .hero-sel { background: rgba(255, 255, 255, 0.07); border-left: 3px solid #ff3b4e; border-radius: 10px; padding: 0.7rem 0.95rem; backdrop-filter: blur(6px); }
-.hero-sel .nome { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem; }
+.hero-sel .nome { font-size: 1.65rem; font-weight: 800; font-weight: 700; margin-bottom: 0.3rem; }
 .hero-sel .lin { display: flex; justify-content: space-between; gap: 10px; font-size: 0.95rem; padding: 0.2rem 0; border-top: 1px solid rgba(255, 255, 255, 0.14); }
 .hero-sel .lin span { color: rgba(255, 255, 255, 0.75); }
 .kpi-grid.seis { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; margin: 0; }
@@ -328,17 +343,38 @@ cartoes = [
            "–" if topo_taxa is None else topo_taxa["municipio"], "neutro", "Entre os municípios com 20 mil habitantes ou mais."),
 ]
 
-sujeito = "Alagoas registrou" if not sel_mun else "os municípios escolhidos registraram"
+def perfil_do_periodo(d):
+    """Mensagens sobre o perfil dos crimes (como, quando, onde e contra quem) no período do mapa."""
+    if d.empty:
+        return []
+
+    def pct(parte, total):
+        return parte / total * 100 if total else np.nan
+
+    instr = d[d["instrumento"] != "Não informado"]
+    hora = d.dropna(subset=["hora"])
+    loc = d[d["local"] != "Não informado/outros"]
+    sexo = d[d["sexo"] != "Não informado"]
+    idade = d.dropna(subset=["idade"])
+    p_mulher = pct((sexo["sexo"] == "Feminino").sum(), len(sexo))
+    itens = [
+        (pct((instr["instrumento"] == "Arma de fogo").sum(), len(instr)), "das mortes foram causadas por <em>arma de fogo</em>"),
+        (pct(hora["hora"].between(18, 23).sum(), len(hora)), "ocorreram <em>à noite</em>, entre 18h e 23h"),
+        (pct((loc["local"] == "Via/espaço público").sum(), len(loc)), "aconteceram em <em>vias e espaços públicos</em>"),
+        (pct((sexo["sexo"] == "Masculino").sum(), len(sexo)),
+         f"das vítimas eram <em>homens</em> ({dec(p_mulher, 0)}% mulheres)" if not np.isnan(p_mulher) else "das vítimas eram <em>homens</em>"),
+        (pct(idade["idade"].between(18, 34).sum(), len(idade)), "das vítimas tinham entre <em>18 e 34 anos</em>"),
+    ]
+    return [(f"{dec(v, 0)}%", txt) for v, txt in itens if not np.isnan(v)]
 
 
-def frase_var(pc, quando):
-    if pd.isna(pc):
-        return ""
-    return f'<span class="{"bom" if pc < 0 else "ruim"}">{dec(abs(pc))}% {"menos" if pc < 0 else "mais"}</span> {quando}'
-
-
-frase = (f"Em <b>12 meses</b> ({rotulo_j12}), {sujeito} <b>{n(v12)} vítimas</b> de crimes violentos letais: "
-         f"{frase_var(p1, 'que nos 12 meses anteriores')} e {frase_var(p13, 'que em 2013')}.")
+_meses_p = PERIODOS_MAPA[per_mapa]
+_ini_p = mes_ref - (_meses_p - 1) if _meses_p else pd.Period("2013-01", "M")
+_filtrado = bool(sel_mun) or set(sel_sexo) != set(df["sexo"].unique()) or set(sel_instr) != set(df["instrumento"].unique()) \
+    or set(sel_per) != set(dados.PERIODOS)
+_linhas_p = "".join(f'<div class="p-lin"><b>{v}</b><span>{txt}</span></div>' for v, txt in perfil_do_periodo(base[(mes_p >= _ini_p) & (mes_p <= mes_ref)]))
+perfil_html = (f'<div class="perfil"><div class="p-tit">Perfil dos crimes <span>· {per_mapa.lower()}'
+               f'{" · filtros aplicados" if _filtrado else ""}</span></div>{_linhas_p}</div>') if _linhas_p else ""
 
 # ---------------------------------------------------------------- dados do mapa
 m = None
@@ -421,7 +457,7 @@ def figura_mapa(celular: bool):
         lon_r, lat_r, altura = [-38.32, -35.12], [-11.1, -8.72], 300
         fig.update_traces(selector=dict(type="choropleth"), colorbar=dict(x=0.5, xanchor="center", y=0.02, yanchor="bottom", len=0.7))
     else:          # o estado ocupa a parte direita e deixa o lado esquerdo livre para o texto
-        lon_r, lat_r, altura = [-39.75, -34.95], [-11.30, -8.40], 840
+        lon_r, lat_r, altura = [-39.75, -34.95], [-11.30, -8.40], 880
     fig.update_geos(projection_type="mercator", lonaxis_range=lon_r, lataxis_range=lat_r, visible=False, bgcolor="rgba(0,0,0,0)")
     # dragmode "turntable": o Streamlit troca dragmode=False por "pan" (e o mapa se moveria ao arrastar)
     fig.update_layout(height=altura, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="rgba(0,0,0,0)",
@@ -474,17 +510,17 @@ with hero:
                 st.button("Limpar seleção", width="stretch", on_click=limpar_selecao, key="limpar_m")
 
     with st.container(key="hero_txt"):
-        st.title("Crimes violentos letais em Alagoas")
-        st.markdown(f'<div class="hero-cap">Secretaria de Segurança Pública de Alagoas, via portal Alagoas em Dados · '
-                    f'dados até <b>{data_pt(ultima)}</b> · publicado em <b>{data_pt(meta["atualizado_em"][:10])}</b></div>',
+        st.markdown('<h1 class="hero-tit">Crimes violentos <span class="acc">letais</span> em Alagoas</h1><div class="hero-tit-bar"></div>',
                     unsafe_allow_html=True)
+        st.markdown(f'<div class="hero-cap">Fonte: SSP-AL, via Alagoas em Dados · dados até <b>{data_pt(ultima)}</b> · '
+                    f'publicado em <b>{data_pt(meta["atualizado_em"][:10])}</b></div>', unsafe_allow_html=True)
         with st.container(key="sel_d"):                # cartão do município no computador (some no celular)
             if escolhido is not None:
                 st.markdown(cartao_municipio(escolhido), unsafe_allow_html=True)
                 st.button("Limpar seleção", width="stretch", on_click=limpar_selecao, key="limpar_d")
         # no computador a manchete dá lugar ao cartão; no celular ela fica sempre (o cartão vai abaixo do mapa)
         with st.container(key="frase_off" if escolhido is not None else "frase_on"):
-            st.markdown(f'<div class="hero-frase">{frase}</div>', unsafe_allow_html=True)
+            st.markdown(perfil_html, unsafe_allow_html=True)
             st.markdown('<div class="hero-cap"><span class="so-d">Clique em um município do mapa para ver os detalhes.</span>'
                         '<span class="so-m">Toque em um município do mapa ou escolha na lista abaixo dele.</span></div>',
                         unsafe_allow_html=True)
@@ -492,9 +528,9 @@ with hero:
     if m is not None:
         with st.container(key="hero_rank"):
             if usa_taxa:                              # mostra a medida contrária à da cor do mapa
-                alt, col, tit, fmt = m.sort_values("casos", ascending=False).head(5), "casos", "Mais vítimas", n
+                alt, col, tit, fmt = m.sort_values("casos", ascending=False).head(4), "casos", "Mais vítimas", n
             else:
-                alt = m[m["populacao"] >= 20000].sort_values("taxa", ascending=False).head(5)
+                alt = m[m["populacao"] >= 20000].sort_values("taxa", ascending=False).head(4)
                 col, tit, fmt = "taxa", "Maiores taxas (20 mil hab. ou mais)", dec
             vmax = float(alt[col].max()) or 1.0
             linhas = "".join(
