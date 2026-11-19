@@ -76,6 +76,47 @@ O resultado final da pesquisa deve incluir:
 
 A pesquisa busca oferecer uma leitura mais simples e visual dos dados, permitindo que a população compreenda melhor o comportamento dos crimes violentos letais intencionais no estado e entenda se as tendências estão se alterando de forma desigual entre as cidades e grupos sociais.
 
+## Como reproduzir
+
+1. Baixe o CSV de microdados do dataset "CVLI AL - Base de Microdados" no portal Alagoas em Dados e salve como `dados_brutos/cvli_dados.csv` (o arquivo não é versionado).
+2. Instale as dependências dos notebooks:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Rode os notebooks em ordem, de dentro da pasta `notebooks/`:
+   - `01_pre_processamento.ipynb`: leitura e limpeza da base;
+   - `02_analise_exploratoria.ipynb`: recorte de 2013 a 2025, análise descritiva e testes de hipóteses; gera `dados_tratados/`;
+   - `03_analise_populacional.ipynb`: taxas por 100 mil habitantes; gera `dados_brutos/populacao_municipios_AL.csv`.
+4. Gráficos da apresentação (opcional), a partir da raiz do projeto:
+
+   ```bash
+   python apresentacao/graficos_slides.py
+   ```
+
+   Os PNGs saem em `apresentacao/graficos/` e os números principais são impressos no terminal.
+5. Painel interativo: ver `painel/LEIA-ME.md`.
+
+## Principais resultados (2013 a 2025)
+
+Base de 18.741 vítimas, com população municipal do IBGE.
+
+- O número de vítimas caiu de 2.247 (2013) para 950 (2025), queda de 57,7%. A taxa passou de 68,1 para 29,5 por 100 mil habitantes.
+- A queda não foi homogênea: entre os 24 municípios com pelo menos 150 vítimas, a taxa caiu de 72,6% (Pilar) a 5,6% (Campo Alegre), comparando 2013-15 com 2023-25. No estado, a queda foi de 46,3%.
+- Entre os municípios com 20 mil habitantes ou mais, a taxa média de 2023-25 vai de 7,2 (Feira Grande) a 61,2 (Rio Largo) por 100 mil.
+- A taxa de vítimas mulheres caiu menos que a dos homens (31,7% contra 47,2%).
+- 42,1% das vítimas foram mortas entre 18h e 23h.
+
+## Equipe
+
+Trabalho da disciplina Ciência dos Dados e Inteligência Empresarial (Sistemas de Informação, UFAL).
+
+- Elysa Francyne dos Santos
+- Joao Gaudencio Soares Costa
+- José Gabriel Fideles Silva
+- Sophia Sacramento dos Santos
+
 ## Conclusão
 
 A análise de CVLI em Alagoas pode contribuir para a produção de conhecimento sobre a violência letal no estado, auxiliando na tomada de decisão, na formulação de políticas públicas e na compreensão de padrões que impactam diretamente a sociedade alagoana.
